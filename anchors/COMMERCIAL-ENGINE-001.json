@@ -1,0 +1,83 @@
+{
+  "checkpoint_id": "HBCE-PRELAUNCH-5K-RND-COMMERCIAL-ENGINE-001",
+  "claim_boundary": [
+    "NO_PAID_CUSTOMER_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED",
+    "NO_PARTNERSHIP_VALIDATED",
+    "NO_ENDORSEMENT_CLAIM",
+    "NO_CERTIFICATION_CLAIM",
+    "ENGINE_READINESS_DOES_NOT_EQUAL_MARKET_VALIDATION"
+  ],
+  "commercial_state": {
+    "revenue_validated_eur": 0,
+    "validated_paid_customer": false,
+    "validated_paid_engagement": false,
+    "validated_partnership": false
+  },
+  "engine": {
+    "define": {
+      "path": "commercial/ENGAGEMENT_MODEL.json",
+      "sha256": "490729bde63dc4b5f4f6d81ea6857622462e13025cbd25c58120a26dd1136843"
+    },
+    "execute": {
+      "path": "scripts/transition_commercial.py",
+      "sha256": "bd47d38d2bddc1317bec0a8a2b7baaed68dde48bd7999f1c5a9b8ddbd162162d"
+    },
+    "initialize": {
+      "path": "scripts/new_review.py",
+      "sha256": "52d30d155a7b39ab62e49ceb42ed34ef2ee5fb942dff07980729a5376aeb6da8"
+    },
+    "record": {
+      "event_log": "COMMERCIAL_EVENTS.jsonl",
+      "event_model": "APPEND_ONLY_HASH_CHAIN",
+      "projection": "PROJECT.json"
+    },
+    "verify": {
+      "mode": "INDEPENDENT_READ_ONLY_RECONSTRUCTION",
+      "path": "scripts/verify_commercial.py",
+      "sha256": "1312b141bebb69ad6c2dfb2d75a13fc0c26404feb15731a49ba1db20eecac878"
+    }
+  },
+  "engine_version": "0.1.0",
+  "next_operational_boundary": "Use the frozen commercial engine on a qualified external prospect and obtain the first evidence-backed paid engagement.",
+  "operational_boundary": "The commercial engine is ready to represent and verify an external engagement lifecycle. This checkpoint does not establish that any external party has accepted a proposal, paid HBCE, become a customer, entered a partnership, or endorsed HBCE.",
+  "previous_program_checkpoint": {
+    "path": "anchors/PROGRAM-CHECKPOINT-001.json",
+    "sha256": "02163ba065b08811a6a28e6bad3ba2a9e652a591604de12b82f90fdee770daef"
+  },
+  "primary_metric": {
+    "achieved": false,
+    "metric": "FIRST_EXTERNAL_PAID_ENGAGEMENT"
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "repository_head_before_checkpoint": "aeb767b1774472008a8199a01f94e85409db05b9",
+  "state": "COMMERCIAL_ENGINE_READY_FOR_EXTERNAL_ENGAGEMENT",
+  "templates": {
+    "engagement": {
+      "path": "templates/ENGAGEMENT.md",
+      "sha256": "74ba5958d9fa765bf674e682472ffcc40836c46daad97a4f14ae46f31612ac8a"
+    },
+    "proposal": {
+      "path": "templates/PROPOSAL.md",
+      "sha256": "ce0ebb179d318c341cf7a6b04adfdd00cc3e9c710e241b528f01873779a949b8"
+    },
+    "qualification": {
+      "path": "templates/QUALIFICATION.md",
+      "sha256": "368891a9fd163af899dc06afe0dfbe9c5738ce3ec26de0b1a6983aa5065569e9"
+    }
+  },
+  "validated_properties": [
+    "MODEL_STATE_COVERAGE",
+    "LEGAL_TRANSITION_ENFORCEMENT",
+    "ILLEGAL_TRANSITION_FAIL_CLOSED",
+    "COMMERCIAL_ACCEPTANCE_REQUIRES_PRICE_AND_EVIDENCE",
+    "PAID_STATE_REQUIRES_POSITIVE_PAYMENT_AND_EVIDENCE",
+    "APPEND_ONLY_EVENT_GENEALOGY",
+    "EVENT_HASH_CHAIN_VALIDATION",
+    "EVENT_TAMPER_DETECTION",
+    "PROJECTION_TAMPER_DETECTION",
+    "INDEPENDENT_READ_ONLY_RECONSTRUCTION",
+    "EXECUTE_RECORD_VERIFY_SEPARATION"
+  ]
+}
