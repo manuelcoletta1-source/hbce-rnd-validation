@@ -1,0 +1,30 @@
+{
+  "anchor_id": "TARGET-002-A001",
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "target_id": "TARGET-002",
+  "external_target": "moonrunnerkc/swarm-orchestrator",
+  "target_commit": "e261c859b7b0239a0135206345d25385c394d12e",
+  "state": "INDEPENDENT_FINDING_REPRODUCED_PRE_CONTACT",
+  "finding_count": 1,
+  "finding_classification": "FULL_ENGINE_MEASUREMENT_SEMANTIC_INCONSISTENCY",
+  "operational_boundary": "COMMAND_GATE_PASSED_NE_CHANGED_CODE_EXECUTED",
+  "evidence_scope": {
+    "static_analysis": true,
+    "function_level_reproduction": true,
+    "integrated_gate_cycle_reproduction": true,
+    "full_engine_reproduction": true,
+    "upstream_acceptance_control": true
+  },
+  "private_evidence_manifest_sha256": "62ab6142f37c91f45bcc30b76e96c1603a8923c3eafe7b1a158c140729e609a3",
+  "technical_details": "WITHHELD_PRE_CONTACT",
+  "contact_state": "NOT_CONTACTED",
+  "claim_boundary": [
+    "NOT_A_CLIENT",
+    "NOT_A_PARTNER",
+    "NOT_CONTACTED",
+    "NO_PAYMENT_VALIDATED",
+    "NO_CERTIFICATION_CLAIM",
+    "NO_ENDORSEMENT_CLAIM",
+    "NO_SECURITY_EXPLOITABILITY_CLAIM"
+  ]
+}
