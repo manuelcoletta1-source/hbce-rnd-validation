@@ -1,0 +1,52 @@
+{
+  "version": "0.1.0",
+  "currency": "EUR",
+  "offers": [
+    {
+      "id": "ARTIFACT_REVIEW",
+      "name": "Artifact Review",
+      "target_price_eur": 350,
+      "scope": [
+        "bounded artifact review",
+        "claim-boundary analysis",
+        "reproducibility risks",
+        "prioritized technical findings"
+      ]
+    },
+    {
+      "id": "EVIDENCE_RECONSTRUCTION",
+      "name": "Evidence Reconstruction",
+      "target_price_eur": 650,
+      "scope": [
+        "independent reconstruction",
+        "digest verification",
+        "lifecycle verification",
+        "evidence-gap analysis"
+      ]
+    },
+    {
+      "id": "PROTOCOL_STRESS_TEST",
+      "name": "Protocol Stress Test",
+      "target_price_eur": 750,
+      "scope": [
+        "adversarial protocol review",
+        "negative-control design",
+        "fail-closed testing",
+        "lifecycle ambiguity analysis"
+      ]
+    },
+    {
+      "id": "FULL_VALIDATION_CYCLE",
+      "name": "Full R&D Validation Cycle",
+      "target_price_range_eur": [3000, 5000],
+      "scope": [
+        "iterative technical review",
+        "independent reconstruction",
+        "positive controls",
+        "negative controls",
+        "re-verification",
+        "technical closure"
+      ]
+    }
+  ]
+}

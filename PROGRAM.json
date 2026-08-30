@@ -1,0 +1,40 @@
+{
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "name": "HBCE R&D Validation",
+  "state": "PRE_LAUNCH_MARKET_VALIDATION",
+
+  "objective": {
+    "funding_target_eur": 5000,
+    "primary_metric": "FIRST_EXTERNAL_PAID_ENGAGEMENT",
+    "note": "EUR 5000 is a business funding target, not a tax or VAT threshold."
+  },
+
+  "commercial_hypotheses": {
+    "artifact_review_eur": 350,
+    "evidence_reconstruction_eur": 650,
+    "protocol_stress_test_eur": 750,
+    "full_validation_cycle_range_eur": [
+      3000,
+      5000
+    ]
+  },
+
+  "reference_cases": [
+    {
+      "id": "OMNILINK-0.4",
+      "state": "COMPLETED_UNPAID_TECHNICAL_PILOT",
+      "commercial_customer": false,
+      "purpose": "Technical baseline and internal pricing benchmark",
+      "public_endorsement_claimed": false
+    }
+  ],
+
+  "commercial_launch_target": "2027-01",
+
+  "claim_boundary": [
+    "NO_ACCREDITED_CERTIFICATION",
+    "NO_CE_CERTIFICATION",
+    "NO_FUNCTIONAL_SAFETY_CERTIFICATION",
+    "NO_UNAUTHORIZED_CLIENT_OR_PARTNERSHIP_CLAIMS"
+  ]
+}
