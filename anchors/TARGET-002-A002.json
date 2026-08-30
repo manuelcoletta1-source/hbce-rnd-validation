@@ -1,0 +1,48 @@
+{
+  "anchor_id": "TARGET-002-A002",
+  "claim_boundary": [
+    "A001_NOT_REPLACED",
+    "HISTORICAL_PAYLOAD_NOT_RECOVERED",
+    "HISTORICAL_PAYLOAD_NOT_RECONSTRUCTED",
+    "FINDING_CLASSIFICATION_NOT_CHANGED",
+    "CONTACT_STATE_NOT_ROLLED_BACK",
+    "NO_NEW_FINDING_CLAIM",
+    "NO_CLIENT_CLAIM",
+    "NO_PARTNERSHIP_CLAIM",
+    "NO_PAYMENT_VALIDATED",
+    "NO_CERTIFICATION_CLAIM",
+    "NO_ENDORSEMENT_CLAIM"
+  ],
+  "external_target": "moonrunnerkc/swarm-orchestrator",
+  "finding_classification": "REPRODUCIBLE_FULL_ENGINE_MEASUREMENT_SEMANTIC_INCONSISTENCY",
+  "finding_id": "HBCE-T002-F001",
+  "finding_state": "CONTACTED_AWAITING_MAINTAINER_RESPONSE",
+  "genealogy_repair": {
+    "classification": "POSTCONTACT_IN_PLACE_MUTATION_OF_PRECONTACT_ARTIFACT",
+    "contact_receipt_sha256": "44bac41241c89af4351692c7e97ddd4997987574d8d6e7e8046d2eef4cbfd8ef",
+    "forensic_audit_sha256": "729c8cbcb57c16266c26ef847397a02ef58e406b7416c75b95cc6a8eb02440a0",
+    "repair_event_sha256": "e7edc2d2a53c879917401b26aa9547049d76dff80715c6b980e43ad2a24b2689",
+    "repair_id": "HBCE-T002-GR001",
+    "repair_manifest_sha256": "31340555cc4871f4b6942522c0cba84251e2277fc5e48181554c4f7ace682643"
+  },
+  "historical_precontact_commitment": {
+    "finding_sha256": "7284919d2373a0db333f399f5cd6cc239714cbff34ddbb0a365d62f6df198602",
+    "manifest_sha256": "62ab6142f37c91f45bcc30b76e96c1603a8923c3eafe7b1a158c140729e609a3",
+    "payload_locally_recoverable": false,
+    "payload_reconstructed": false
+  },
+  "observed_postcontact_state": {
+    "contact_state": "AWAITING_MAINTAINER_RESPONSE",
+    "snapshot_sha256": "875c11bfae485ac921ee784cafb945047ef15fc552aa3d40f1863a7d7873f4d6"
+  },
+  "previous_anchor": {
+    "anchor_id": "TARGET-002-A001",
+    "public_commit": "8ea7af8dd8e4a48151a8aad095b21b8c9d5d9a03",
+    "sha256": "44d8d89ce22b66005883094c5ce1595dae5f2e6a586b374b282502690ad3e985"
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "scope_boundary": "A002 records an append-only genealogy repair. It does not replace A001, reconstruct the unavailable historical payload, alter the finding classification, or assert any new target behavior.",
+  "state": "APPEND_ONLY_GENEALOGY_REPAIR_ANCHORED",
+  "target_commit": "e261c859b7b0239a0135206345d25385c394d12e",
+  "target_id": "TARGET-002"
+}
