@@ -1,0 +1,262 @@
+{
+  "allowed_transitions": {
+    "CLOSED": [],
+    "COMMERCIAL_ACCEPTED": [
+      "PAYMENT_PENDING"
+    ],
+    "DELIVERED": [
+      "CLOSED"
+    ],
+    "IN_DELIVERY": [
+      "DELIVERED"
+    ],
+    "NOT_QUALIFIED": [],
+    "PAID": [
+      "IN_DELIVERY"
+    ],
+    "PAYMENT_PENDING": [
+      "PAID"
+    ],
+    "PROPOSAL_DECLINED": [],
+    "PROPOSAL_DRAFT": [
+      "PROPOSAL_SENT"
+    ],
+    "PROPOSAL_SENT": [
+      "PROPOSAL_DECLINED",
+      "COMMERCIAL_ACCEPTED"
+    ],
+    "PROSPECT": [
+      "QUALIFICATION"
+    ],
+    "QUALIFICATION": [
+      "QUALIFIED",
+      "NOT_QUALIFIED"
+    ],
+    "QUALIFIED": [
+      "PROPOSAL_DRAFT"
+    ]
+  },
+  "claim_boundary": [
+    "HBCE_RND_VALIDATION_IS_NOT_ACCREDITED_CERTIFICATION",
+    "NO_SECURITY_CERTIFICATION_CLAIM",
+    "NO_CE_CERTIFICATION_CLAIM",
+    "NO_FUNCTIONAL_SAFETY_CERTIFICATION_CLAIM",
+    "NO_CLIENT_CLAIM_BEFORE_COMMERCIAL_ACCEPTANCE",
+    "NO_PAID_CLIENT_CLAIM_BEFORE_PAYMENT_EVIDENCE",
+    "NO_PARTNERSHIP_CLAIM_WITHOUT_EXPLICIT_PARTNERSHIP",
+    "NO_ENDORSEMENT_CLAIM_WITHOUT_EXPLICIT_ENDORSEMENT"
+  ],
+  "currency": "EUR",
+  "engagement_definition": {
+    "client_claim_allowed_when": [
+      "commercial relationship is validated"
+    ],
+    "commercial_relationship_validated_when": [
+      "counterparty identity is recorded",
+      "scope is explicitly accepted",
+      "price is explicitly accepted"
+    ],
+    "paid_client_claim_allowed_when": [
+      "paid engagement is validated"
+    ],
+    "paid_engagement_validated_when": [
+      "commercial relationship is validated",
+      "payment amount is greater than zero",
+      "payment evidence is retained"
+    ]
+  },
+  "model_boundary": "This prelaunch model uses a sequential prepaid engagement lifecycle. Alternative enterprise invoicing terms require a later explicit model revision rather than reinterpretation of these states.",
+  "offers": {
+    "ARTIFACT_REVIEW": {
+      "closure_condition": [
+        "reviewed artifacts identified",
+        "scope boundary recorded",
+        "findings classified",
+        "unknowns separated from failures"
+      ],
+      "deliverables": [
+        "bounded scope statement",
+        "artifact review record",
+        "claim-boundary analysis",
+        "prioritized technical findings",
+        "evidence-gap summary"
+      ],
+      "name": "Artifact Review",
+      "target_price_eur": 350
+    },
+    "EVIDENCE_RECONSTRUCTION": {
+      "closure_condition": [
+        "input artifacts frozen or identified",
+        "reconstruction procedure recorded",
+        "digest results recorded",
+        "unresolved evidence gaps declared"
+      ],
+      "deliverables": [
+        "independent reconstruction record",
+        "digest verification table",
+        "lifecycle verification",
+        "evidence manifest",
+        "evidence-gap report"
+      ],
+      "name": "Evidence Reconstruction",
+      "target_price_eur": 650
+    },
+    "FULL_VALIDATION_CYCLE": {
+      "closure_condition": [
+        "scope formally bounded",
+        "material hypotheses classified",
+        "reproducible findings separated from known boundaries",
+        "re-verification completed where applicable",
+        "closure state recorded"
+      ],
+      "deliverables": [
+        "intake and scope record",
+        "evidence inventory",
+        "independent reconstruction",
+        "positive controls",
+        "negative controls",
+        "structured findings",
+        "re-verification record",
+        "technical closure package",
+        "evidence manifest"
+      ],
+      "name": "Full R&D Validation Cycle",
+      "target_price_range_eur": [
+        3000,
+        5000
+      ]
+    },
+    "PROTOCOL_STRESS_TEST": {
+      "closure_condition": [
+        "tested boundary explicitly declared",
+        "controls executed or classified inconclusive",
+        "observations separated from inference",
+        "claims limited to tested scope"
+      ],
+      "deliverables": [
+        "bounded protocol hypothesis set",
+        "positive controls",
+        "negative controls",
+        "execution transcript",
+        "fail-closed analysis",
+        "technical boundary report"
+      ],
+      "name": "Protocol Stress Test",
+      "target_price_eur": 750
+    }
+  },
+  "payment_evidence": {
+    "acceptable_internal_evidence_classes": [
+      "invoice payment record",
+      "bank payment record",
+      "payment processor receipt"
+    ],
+    "minimum_paid_eur": 1,
+    "public_payment_details_required": false,
+    "required_for_paid_metric": true
+  },
+  "primary_metric": "FIRST_EXTERNAL_PAID_ENGAGEMENT",
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "qualification_gate": {
+    "reject_or_rescope": [
+      "request requires accredited certification",
+      "request requires CE certification",
+      "request requires functional safety certification",
+      "request requires false endorsement or partnership representation",
+      "request requires unauthorized access",
+      "requested conclusion is predetermined before evidence review"
+    ],
+    "required": [
+      "identifiable technical target or artifact",
+      "bounded question or validation objective",
+      "authorized access to supplied materials",
+      "counterparty identity sufficient for commercial proposal",
+      "one applicable HBCE offer"
+    ]
+  },
+  "state_machine_invariants": [
+    "Every declared state must have exactly one state_rules entry.",
+    "Every declared state must have exactly one allowed_transitions entry.",
+    "Every transition destination must reference a declared state.",
+    "A paid engagement must also be a validated commercial relationship.",
+    "COMMERCIAL_ACCEPTED does not imply payment.",
+    "PAYMENT_PENDING does not imply payment.",
+    "PAID requires retained payment evidence.",
+    "No technical delivery state is reached before PAID in this prelaunch commercial model."
+  ],
+  "state_rules": {
+    "CLOSED": {
+      "commercial_relationship": true,
+      "paid_engagement": true
+    },
+    "COMMERCIAL_ACCEPTED": {
+      "commercial_relationship": true,
+      "paid_engagement": false
+    },
+    "DELIVERED": {
+      "commercial_relationship": true,
+      "paid_engagement": true
+    },
+    "IN_DELIVERY": {
+      "commercial_relationship": true,
+      "paid_engagement": true
+    },
+    "NOT_QUALIFIED": {
+      "commercial_relationship": false,
+      "paid_engagement": false
+    },
+    "PAID": {
+      "commercial_relationship": true,
+      "paid_engagement": true
+    },
+    "PAYMENT_PENDING": {
+      "commercial_relationship": true,
+      "paid_engagement": false
+    },
+    "PROPOSAL_DECLINED": {
+      "commercial_relationship": false,
+      "paid_engagement": false
+    },
+    "PROPOSAL_DRAFT": {
+      "commercial_relationship": false,
+      "paid_engagement": false
+    },
+    "PROPOSAL_SENT": {
+      "commercial_relationship": false,
+      "paid_engagement": false
+    },
+    "PROSPECT": {
+      "commercial_relationship": false,
+      "paid_engagement": false
+    },
+    "QUALIFICATION": {
+      "commercial_relationship": false,
+      "paid_engagement": false
+    },
+    "QUALIFIED": {
+      "commercial_relationship": false,
+      "paid_engagement": false
+    }
+  },
+  "states": [
+    "PROSPECT",
+    "QUALIFICATION",
+    "QUALIFIED",
+    "NOT_QUALIFIED",
+    "PROPOSAL_DRAFT",
+    "PROPOSAL_SENT",
+    "PROPOSAL_DECLINED",
+    "COMMERCIAL_ACCEPTED",
+    "PAYMENT_PENDING",
+    "PAID",
+    "IN_DELIVERY",
+    "DELIVERED",
+    "CLOSED"
+  ],
+  "terminal_states": [
+    "NOT_QUALIFIED",
+    "PROPOSAL_DECLINED",
+    "CLOSED"
+  ],
+  "version": "0.1.0"
+}
