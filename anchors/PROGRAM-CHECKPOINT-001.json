@@ -1,0 +1,85 @@
+{
+  "checkpoint_id": "HBCE-PRELAUNCH-5K-RND-CP001",
+  "claim_boundary": [
+    "NO_PAID_CUSTOMER_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_PARTNERSHIP_VALIDATED",
+    "NO_ENDORSEMENT_CLAIM",
+    "NO_CERTIFICATION_CLAIM",
+    "NO_REPOSITORY_WIDE_CORRECTNESS_CLAIM"
+  ],
+  "commercial_state": {
+    "revenue_validated_eur": 0,
+    "validated_paid_customer": false,
+    "validated_paid_engagement": false,
+    "validated_partnership": false
+  },
+  "cycle_metrics": {
+    "paid_engagements": 0,
+    "targets_awaiting_maintainer_response": 2,
+    "targets_completed": 3,
+    "targets_contacted": 2,
+    "targets_with_no_new_finding": 1,
+    "targets_with_reproducible_finding": 2
+  },
+  "next_operational_boundary": "Convert validated technical capability into the first external paid engagement without misrepresenting unpaid technical work as a client, partnership, endorsement, certification, or paid commercial validation.",
+  "primary_metric": {
+    "achieved": false,
+    "metric": "FIRST_EXTERNAL_PAID_ENGAGEMENT"
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "reference_case": {
+    "commercial_customer": false,
+    "id": "OMNILINK-0.4",
+    "state": "COMPLETED_UNPAID_TECHNICAL_PILOT"
+  },
+  "repository_head_before_checkpoint": "e6b42af192e7179a4c654b43018d126b25b13f51",
+  "state": "THREE_TARGET_VALIDATION_CYCLE_COMPLETED",
+  "targets": {
+    "TARGET-001": {
+      "contact_state": "AWAITING_MAINTAINER_RESPONSE",
+      "external_issue": 14,
+      "finding_id": "HBCE-T001-F001",
+      "frozen_commit": "fe9ef5548d6b1cc75374664aded27e1fe5c613af",
+      "maintainer_response_observed": false,
+      "public_anchor": {
+        "anchor_id": "TARGET-001-A001",
+        "sha256": "5d752d94bf1d9485284f9298cafc418d7c74f4c834627b8924c4a83d54ef2dc0"
+      },
+      "repository": "blue-az/operator-control-plane",
+      "result": "REPRODUCIBLE_FINDING"
+    },
+    "TARGET-002": {
+      "contact_state": "AWAITING_MAINTAINER_RESPONSE",
+      "external_issue": 69,
+      "finding_id": "HBCE-T002-F001",
+      "frozen_commit": "e261c859b7b0239a0135206345d25385c394d12e",
+      "genealogy_state": "APPEND_ONLY_REPAIR_ANCHORED",
+      "maintainer_response_observed": false,
+      "public_anchors": [
+        {
+          "anchor_id": "TARGET-002-A001",
+          "role": "PRECONTACT_EVIDENCE_COMMITMENT",
+          "sha256": "44d8d89ce22b66005883094c5ce1595dae5f2e6a586b374b282502690ad3e985"
+        },
+        {
+          "anchor_id": "TARGET-002-A002",
+          "role": "GENEALOGY_REPAIR_COMMITMENT",
+          "sha256": "2e67e04ad41edfd9c05544a0639df2996695f134745320127ee2dab167a237c7"
+        }
+      ],
+      "repository": "moonrunnerkc/swarm-orchestrator",
+      "result": "REPRODUCIBLE_FINDING"
+    },
+    "TARGET-003": {
+      "contact_state": "NOT_CONTACTED",
+      "frozen_commit": "affc2eab209fa43bdfa2f26c0f8d437922d78a68",
+      "public_anchor": {
+        "anchor_id": "TARGET-003-A001",
+        "sha256": "0a5c2992b5904e57c00b18a8db81cb8b0444cc173f56762aa99de58f8428a68a"
+      },
+      "repository": "NVlabs/alpasim",
+      "result": "NO_NEW_FINDING_IN_TESTED_SCOPE"
+    }
+  }
+}
