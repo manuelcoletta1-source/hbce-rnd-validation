@@ -1,0 +1,669 @@
+{
+  "generated_at": "2026-08-30T11:34:23.848633+00:00",
+  "source": "GITHUB_PUBLIC_API",
+  "scoring": {
+    "observed_max": 70,
+    "human_review_max": 30,
+    "commercial_willingness_inferred": false
+  },
+  "candidate_count": 18,
+  "candidates": [
+    {
+      "repository": "blue-az/operator-control-plane",
+      "url": "https://github.com/blue-az/operator-control-plane",
+      "description": "Local control plane for coordinating multi-agent work \u2014 tasks, claims, evidence, verification gates, and handoff briefs across sessions/agents.",
+      "language": "Python",
+      "stars": 9,
+      "open_issues": 2,
+      "pushed_at": "2026-08-29T22:09:00Z",
+      "default_branch": "master",
+      "observed_scores": {
+        "technical_fit": 24,
+        "evidence_surface": 25,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 64,
+      "observed_signals": {
+        "technical": [
+          "agent",
+          "control",
+          "evidence",
+          "provenance",
+          "verification"
+        ],
+        "evidence": [
+          "adapter",
+          "evidence",
+          "test",
+          "tests",
+          "trace",
+          "traces",
+          "verification"
+        ]
+      },
+      "observed_classification": "OBSERVED_HIGH_FIT",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "moonrunnerkc/swarm-orchestrator",
+      "url": "https://github.com/moonrunnerkc/swarm-orchestrator",
+      "description": "A coding agent whose claims about its own work resolve to machine-captured evidence: an append-only hash-chained ledger, gates that retry under a numeric ratchet, and a signed bundle carrying its own verifier that anyone can check offline.",
+      "language": "TypeScript",
+      "stars": 106,
+      "open_issues": 1,
+      "pushed_at": "2026-08-27T05:57:35Z",
+      "default_branch": "v13-main",
+      "observed_scores": {
+        "technical_fit": 21,
+        "evidence_surface": 25,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 61,
+      "observed_signals": {
+        "technical": [
+          "agent",
+          "evidence",
+          "provenance",
+          "verification"
+        ],
+        "evidence": [
+          "adapter",
+          "evidence",
+          "schema",
+          "test",
+          "tests",
+          "verification",
+          "verifier"
+        ]
+      },
+      "observed_classification": "OBSERVED_HIGH_FIT",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "NVlabs/alpasim",
+      "url": "https://github.com/NVlabs/alpasim",
+      "description": "AlpaSim is an open-source autonomous vehicle simulation platform designed for development and testing of end-to-end AV policies",
+      "language": "Python",
+      "stars": 1202,
+      "open_issues": 21,
+      "pushed_at": "2026-08-24T14:44:08Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 27,
+        "evidence_surface": 16,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 58,
+      "observed_signals": {
+        "technical": [
+          "autonomous",
+          "robot",
+          "robotics",
+          "simulation",
+          "simulator"
+        ],
+        "evidence": [
+          "adapter",
+          "schema",
+          "test",
+          "tests"
+        ]
+      },
+      "observed_classification": "OBSERVED_MEDIUM_FIT",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "JayaSaiKishanChapparam/altara",
+      "url": "https://github.com/JayaSaiKishanChapparam/altara",
+      "description": "React components for real-time telemetry dashboards \u2014 robotics, aerospace, autonomous vehicles, industrial IoT. PFD, HSI, time-series, gauges, GPS maps, and ROS2/MQTT adapters at 60fps.",
+      "language": "TypeScript",
+      "stars": 77,
+      "open_issues": 5,
+      "pushed_at": "2026-08-19T21:14:48Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 23,
+        "evidence_surface": 20,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 58,
+      "observed_signals": {
+        "technical": [
+          "autonomous",
+          "robot",
+          "robotics",
+          "ros2"
+        ],
+        "evidence": [
+          "adapter",
+          "adapters",
+          "statemachine",
+          "test",
+          "trace"
+        ]
+      },
+      "observed_classification": "OBSERVED_MEDIUM_FIT",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "mauricemohr88-debug/agent-trust-kit",
+      "url": "https://github.com/mauricemohr88-debug/agent-trust-kit",
+      "description": "Open-source tools for bounded AI-agent handoffs: explicit file packets, evidence receipts, controller-side verification, and a native Hermes plugin.",
+      "language": "Python",
+      "stars": 6,
+      "open_issues": 2,
+      "pushed_at": "2026-08-29T12:00:03Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 24,
+        "evidence_surface": 16,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 55,
+      "observed_signals": {
+        "technical": [
+          "agent",
+          "control",
+          "evidence",
+          "provenance",
+          "verification"
+        ],
+        "evidence": [
+          "schema",
+          "schemas",
+          "test",
+          "tests"
+        ]
+      },
+      "observed_classification": "OBSERVED_MEDIUM_FIT",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "WayneChou-bot/WareTwin",
+      "url": "https://github.com/WayneChou-bot/WareTwin",
+      "description": "Real-time 3D digital twin of an autonomous warehouse \u2014 20 AMRs, deterministic simulation, explainable fleet scheduling, failure injection, VLM camera perception, AI Ops Copilot and what-if scenarios. React Three Fiber + FastAPI.",
+      "language": "TypeScript",
+      "stars": 25,
+      "open_issues": 0,
+      "pushed_at": "2026-08-24T11:22:32Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 27,
+        "evidence_surface": 12,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 54,
+      "observed_signals": {
+        "technical": [
+          "autonomous",
+          "digital twin",
+          "robot",
+          "robotics",
+          "simulation"
+        ],
+        "evidence": [
+          "schema",
+          "test",
+          "tests"
+        ]
+      },
+      "observed_classification": "OBSERVED_MEDIUM_FIT",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "ruvnet/worldgraph",
+      "url": "https://github.com/ruvnet/worldgraph",
+      "description": "Privacy-aware environmental digital twin for ambient/RF sensing in Rust \u2014 a typed, provenance-tracked graph of rooms, sensors, people & beliefs, geospatially grounded with predictive occupancy (OccWorld). ADR-139.",
+      "language": "Rust",
+      "stars": 26,
+      "open_issues": 2,
+      "pushed_at": "2026-08-14T23:05:53Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 22,
+        "evidence_surface": 16,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 53,
+      "observed_signals": {
+        "technical": [
+          "digital twin",
+          "provenance",
+          "robot",
+          "robotics"
+        ],
+        "evidence": [
+          "adapter",
+          "protocol",
+          "test",
+          "tests"
+        ]
+      },
+      "observed_classification": "OBSERVED_MEDIUM_FIT",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "NVlabs/alpagym",
+      "url": "https://github.com/NVlabs/alpagym",
+      "description": "AlpaGym is a reinforcement-learning framework for end-to-end autonomous-driving policies.",
+      "language": "Python",
+      "stars": 141,
+      "open_issues": 0,
+      "pushed_at": "2026-08-26T05:39:50Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 22,
+        "evidence_surface": 12,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 49,
+      "observed_signals": {
+        "technical": [
+          "autonomous",
+          "robot",
+          "robotics",
+          "simulation"
+        ],
+        "evidence": [
+          "protocol",
+          "test",
+          "tests"
+        ]
+      },
+      "observed_classification": "OBSERVED_MEDIUM_FIT",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "taoq-ai/ziran",
+      "url": "https://github.com/taoq-ai/ziran",
+      "description": "\u81ea\u7136 ZIRAN is an open-source security testing framework for AI agents. It discovers dangerous tool chain compositions via knowledge graph analysis, detects execution-level side effects (not just text output), and runs multi-phase trust exploitation campaigns that model real attacker behaviour.",
+      "language": "Python",
+      "stars": 10,
+      "open_issues": 23,
+      "pushed_at": "2026-08-29T08:37:41Z",
+      "default_branch": "develop",
+      "observed_scores": {
+        "technical_fit": 9,
+        "evidence_surface": 25,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 49,
+      "observed_signals": {
+        "technical": [
+          "agent",
+          "execution"
+        ],
+        "evidence": [
+          "adapter",
+          "adapters",
+          "protocol",
+          "schema",
+          "schemas",
+          "test",
+          "tests",
+          "trace",
+          "traces"
+        ]
+      },
+      "observed_classification": "OBSERVED_MEDIUM_FIT",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "AccelerationConsortium/Matterix",
+      "url": "https://github.com/AccelerationConsortium/Matterix",
+      "description": "Digital Twin for Robotics-Assisted Chemistry Lab Automation",
+      "language": "Python",
+      "stars": 54,
+      "open_issues": 2,
+      "pushed_at": "2026-08-28T19:04:24Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 21,
+        "evidence_surface": 12,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 48,
+      "observed_signals": {
+        "technical": [
+          "digital twin",
+          "robot",
+          "robotics",
+          "simulation"
+        ],
+        "evidence": [
+          "state_machine",
+          "test",
+          "tests"
+        ]
+      },
+      "observed_classification": "OBSERVED_MEDIUM_FIT",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "rsasaki0109/worldmodels_ros2",
+      "url": "https://github.com/rsasaki0109/worldmodels_ros2",
+      "description": "Run existing World Models from ROS 2 \u2014 runtime, adapters, benchmark, visualization.",
+      "language": "Python",
+      "stars": 10,
+      "open_issues": 0,
+      "pushed_at": "2026-06-17T12:15:03Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 23,
+        "evidence_surface": 12,
+        "maintainer_activity": 12
+      },
+      "observed_total_max_70": 47,
+      "observed_signals": {
+        "technical": [
+          "autonomous",
+          "robot",
+          "robotics",
+          "ros2"
+        ],
+        "evidence": [
+          "adapter",
+          "adapters",
+          "test"
+        ]
+      },
+      "observed_classification": "OBSERVED_MEDIUM_FIT",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "aws-deadline/deadline-cloud-samples",
+      "url": "https://github.com/aws-deadline/deadline-cloud-samples",
+      "description": "Ready-to-run AWS Deadline Cloud samples for rendering (Maya, Blender, Houdini, Nuke); physical AI (robotics, autonomous driving simulation, MuJoCo, CARLA); synthetic data generation; generative AI video; and bioinformatics.",
+      "language": "Python",
+      "stars": 42,
+      "open_issues": 8,
+      "pushed_at": "2026-08-27T22:45:51Z",
+      "default_branch": "mainline",
+      "observed_scores": {
+        "technical_fit": 22,
+        "evidence_surface": 8,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 45,
+      "observed_signals": {
+        "technical": [
+          "autonomous",
+          "robot",
+          "robotics",
+          "simulation"
+        ],
+        "evidence": [
+          "test",
+          "tests"
+        ]
+      },
+      "observed_classification": "OBSERVED_MEDIUM_FIT",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "ai-pivot/xbot",
+      "url": "https://github.com/ai-pivot/xbot",
+      "description": "Extensible AI agent framework in Go \u2014 multi-channel (Feishu/Slack/CLI), sandboxed tool execution, MCP integration, multi-tenant sessions",
+      "language": "Go",
+      "stars": 12,
+      "open_issues": 5,
+      "pushed_at": "2026-08-30T10:14:57Z",
+      "default_branch": "master",
+      "observed_scores": {
+        "technical_fit": 9,
+        "evidence_surface": 20,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 44,
+      "observed_signals": {
+        "technical": [
+          "agent",
+          "execution"
+        ],
+        "evidence": [
+          "adapter",
+          "protocol",
+          "schema",
+          "test",
+          "trace"
+        ]
+      },
+      "observed_classification": "OBSERVED_WATCH",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "vstorm-co/pydantic-ai-backend",
+      "url": "https://github.com/vstorm-co/pydantic-ai-backend",
+      "description": "File Storage & Sandbox Backends for Pydantic AI: console tools for file operations, Docker-isolated sandboxes for safe execution, and permission system with presets for access control. Enables secure multi-user handling and testing in agents via in-memory, local, or containerized storage.",
+      "language": "Python",
+      "stars": 122,
+      "open_issues": 5,
+      "pushed_at": "2026-08-27T22:07:00Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 12,
+        "evidence_surface": 16,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 43,
+      "observed_signals": {
+        "technical": [
+          "agent",
+          "control",
+          "execution"
+        ],
+        "evidence": [
+          "adapter",
+          "protocol",
+          "test",
+          "tests"
+        ]
+      },
+      "observed_classification": "OBSERVED_WATCH",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "NVIDIA/nurec-skills",
+      "url": "https://github.com/NVIDIA/nurec-skills",
+      "description": "NVIDIA Omniverse NuRec agent skills automate neural reconstruction for autonomous vehicle and robotics simulation, running the reconstruction and rendering workflow end to end.",
+      "language": "Python",
+      "stars": 31,
+      "open_issues": 0,
+      "pushed_at": "2026-08-27T15:39:07Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 26,
+        "evidence_surface": 0,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 41,
+      "observed_signals": {
+        "technical": [
+          "agent",
+          "autonomous",
+          "robot",
+          "robotics",
+          "simulation"
+        ],
+        "evidence": []
+      },
+      "observed_classification": "OBSERVED_WATCH",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "RadiantAILabs/polaris",
+      "url": "https://github.com/RadiantAILabs/polaris",
+      "description": "A Rust framework for building AI agents using ECS-inspired architecture and graph-based execution.",
+      "language": "Rust",
+      "stars": 58,
+      "open_issues": 1,
+      "pushed_at": "2026-08-26T14:36:00Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 9,
+        "evidence_surface": 12,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 36,
+      "observed_signals": {
+        "technical": [
+          "agent",
+          "execution"
+        ],
+        "evidence": [
+          "schema",
+          "test",
+          "tests"
+        ]
+      },
+      "observed_classification": "OBSERVED_WATCH",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "rookepoole/PARS",
+      "url": "https://github.com/rookepoole/PARS",
+      "description": "PARS // Poole Adaptive Reasoning Stack: An evidence-bounded AI reasoning framework for research, audits, and exact-binary provenance. It preserves hard constraints, explores competing mechanisms, attacks weak assumptions, reconstructs after new evidence, and verifies final artifacts.",
+      "language": null,
+      "stars": 9,
+      "open_issues": 0,
+      "pushed_at": "2026-08-16T02:07:30Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 12,
+        "evidence_surface": 9,
+        "maintainer_activity": 15
+      },
+      "observed_total_max_70": 36,
+      "observed_signals": {
+        "technical": [
+          "evidence",
+          "provenance"
+        ],
+        "evidence": [
+          "evidence",
+          "protocol"
+        ]
+      },
+      "observed_classification": "OBSERVED_WATCH",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    },
+    {
+      "repository": "underautomation/UniversalRobots.Unity",
+      "url": "https://github.com/underautomation/UniversalRobots.Unity",
+      "description": "Unity integration for Universal Robots using UnderAutomation SDK. Real-time RTDE, URScript, Dashboard, 3D URDF models \u2014 perfect for digital twins & simulation.",
+      "language": "C#",
+      "stars": 11,
+      "open_issues": 0,
+      "pushed_at": "2026-07-13T19:59:28Z",
+      "default_branch": "main",
+      "observed_scores": {
+        "technical_fit": 15,
+        "evidence_surface": 4,
+        "maintainer_activity": 12
+      },
+      "observed_total_max_70": 31,
+      "observed_signals": {
+        "technical": [
+          "digital twin",
+          "robot",
+          "simulation"
+        ],
+        "evidence": [
+          "test"
+        ]
+      },
+      "observed_classification": "OBSERVED_WATCH",
+      "human_review": {
+        "review_need_max_20": null,
+        "commercial_signal_max_10": null,
+        "state": "NOT_REVIEWED"
+      },
+      "commercial_state": "NOT_CONTACTED"
+    }
+  ]
+}

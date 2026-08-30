@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "queries": [
+    "robotics simulation autonomous stars:10..5000 archived:false",
+    "robotics digital twin stars:10..5000 archived:false",
+    "ros2 adapter robotics stars:10..5000 archived:false",
+    "ai agent execution framework stars:10..5000 archived:false",
+    "provenance evidence verification stars:5..5000 archived:false",
+    "fail closed authorization execution stars:5..5000 archived:false"
+  ]
+}
