@@ -1,0 +1,36 @@
+{
+  "anchor_id": "TARGET-003-A001",
+  "claim_boundary": [
+    "NOT_A_CLIENT",
+    "NOT_A_PARTNER",
+    "NOT_CONTACTED",
+    "NO_PAYMENT_VALIDATED",
+    "NO_CERTIFICATION_CLAIM",
+    "NO_ENDORSEMENT_CLAIM",
+    "NO_SECURITY_VULNERABILITY_CLAIM",
+    "NO_REPOSITORY_WIDE_CORRECTNESS_CLAIM"
+  ],
+  "commercial_relationship": false,
+  "contact_state": "NOT_CONTACTED",
+  "external_target": "NVlabs/alpasim",
+  "finding_count": 0,
+  "private_evidence_manifest_sha256": "e581bd5c0dda9361c6e651cd6e746ae19ac3c17bf00b8dbfbbabc0a1795286db",
+  "private_hypothesis_log_sha256": "4d686e49b3cc8d187c83757d0ce42dcc42c3b13e70a60522e45a3843f483e49e",
+  "private_result_sha256": "8b60e4e7a26dbdda0839ae0507191205ae435f3769ec790e9e47f9dd239b698b",
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "result_classification": "NO_NEW_FINDING_IN_TESTED_SCOPE",
+  "result_id": "HBCE-T003-R001",
+  "scope_boundary": "No new reproducible finding was identified within the tested scope. This is not a repository-wide correctness, security, certification, or defect-free claim.",
+  "state": "INDEPENDENT_VALIDATION_COMPLETED_NO_NEW_FINDING_IN_TESTED_SCOPE",
+  "target_commit": "affc2eab209fa43bdfa2f26c0f8d437922d78a68",
+  "target_id": "TARGET-003",
+  "technical_details": "PRIVATE_EVIDENCE_RETAINED",
+  "tested_scope": [
+    "ROLLOUT_SEED_PROVENANCE",
+    "SERVICE_SEED_PROPAGATION",
+    "ROLLOUT_INDEX_BINDING",
+    "RETRY_SEED_PRESERVATION",
+    "IPC_SERIALIZATION_SEED_PRESERVATION",
+    "WORKER_TO_UNBOUND_ROLLOUT_BINDING"
+  ]
+}
