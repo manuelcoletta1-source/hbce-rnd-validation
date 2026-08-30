@@ -1,0 +1,46 @@
+{
+  "version": "0.1.0",
+  "maximum_score": 100,
+  "criteria": {
+    "technical_fit": {
+      "max": 30,
+      "signals": [
+        "robotics",
+        "simulation",
+        "autonomous_system",
+        "ai_agent",
+        "provenance",
+        "execution_boundary",
+        "evidence",
+        "verification"
+      ]
+    },
+    "evidence_surface": {
+      "max": 25,
+      "signals": [
+        "schemas",
+        "logs",
+        "traces",
+        "tests",
+        "protocol",
+        "state_machine",
+        "adapter"
+      ]
+    },
+    "maintainer_activity": {
+      "max": 15
+    },
+    "review_need": {
+      "max": 20
+    },
+    "commercial_signal": {
+      "max": 10
+    }
+  },
+  "classification": {
+    "80": "PRIORITY_A",
+    "65": "PRIORITY_B",
+    "50": "WATCH",
+    "0": "REJECT"
+  }
+}
