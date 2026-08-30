@@ -1,0 +1,18 @@
+{
+  "anchor_id": "HBCE-TARGET-001-A001",
+  "date": "2026-08-30",
+  "program": "HBCE R&D Validation",
+  "state": "INDEPENDENT_FINDING_REPRODUCED_PRE_CONTACT",
+  "external_target": "WITHHELD_PRE_CONTACT",
+  "finding_count": 1,
+  "finding_classification": "REPRODUCIBLE_CROSS_SURFACE_SEMANTIC_INCONSISTENCY",
+  "safety_outcome": "FAIL_CLOSED",
+  "private_bundle_manifest_sha256": "0a54ba2be74bd2f3a09f1169c51553e4ef9b5f23c4613b5b066ad9489c8176a6",
+  "claim_boundary": [
+    "NOT_A_CLIENT",
+    "NOT_A_PARTNER",
+    "NOT_CONTACTED",
+    "NO_PAYMENT_VALIDATED",
+    "NO_CERTIFICATION_CLAIM"
+  ]
+}
