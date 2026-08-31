@@ -1,0 +1,59 @@
+{
+  "baseline": {
+    "contact_anchor_path": "anchors/FIRST-EXTERNAL-CONTACT-001.json",
+    "contact_anchor_sha256": "56a4eeff50ecc9c1414631f58d645498b44dfe7b0667472d33b72709be7ff1f7",
+    "repository_head_before_observation": "f822d57d1fc0f11a809769d89fea7025bc90efa1"
+  },
+  "claim_boundary": [
+    "RESPONSE_OBSERVATION_DOES_NOT_EQUAL_BUYER_INTENT",
+    "RESPONSE_OBSERVATION_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION",
+    "RESPONSE_OBSERVATION_DOES_NOT_EQUAL_PROPOSAL_RECEPTIVITY",
+    "RESPONSE_OBSERVATION_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "RESPONSE_OBSERVATION_DOES_NOT_EQUAL_PARTNERSHIP",
+    "RESPONSE_OBSERVATION_DOES_NOT_EQUAL_PAID_ENGAGEMENT",
+    "RESPONSE_OBSERVATION_DOES_NOT_EQUAL_REVENUE",
+    "NO_COUNTERPARTY_RESPONSE_OBSERVED"
+  ],
+  "counterparty_evidence": [],
+  "counts": {
+    "all_comment_and_reply_nodes": 0,
+    "counterparty_response_nodes": 0,
+    "self_authored_nodes": 0,
+    "third_party_response_nodes": 0,
+    "top_level_comments": 0
+  },
+  "decision": {
+    "additional_external_write_authorized": false,
+    "commercial_transition_authorized": false,
+    "commercial_transition_executed": false,
+    "human_review_required": false
+  },
+  "next_operational_boundary": "Continue read-only observation of the authorized external contact.",
+  "observation_id": "ALTARA-COUNTERPARTY-RESPONSE-OBSERVATION-001",
+  "observed_at": "2026-08-31T07:44:53.633911Z",
+  "project_id": "002-altara-artifact-review",
+  "response_state": {
+    "buyer_intent_validated": false,
+    "classification": "NO_COUNTERPARTY_RESPONSE_OBSERVED",
+    "commercial_relationship_validated": false,
+    "commercial_state": "QUALIFICATION",
+    "counterparty_response_observed": false,
+    "external_response_observed": false,
+    "paid_engagement_validated": false,
+    "proposal_receptivity_validated": false,
+    "revenue_validated_eur": 0,
+    "review_authorized_by_counterparty": false,
+    "third_party_response_observed": false
+  },
+  "source": {
+    "channel": "GITHUB_DISCUSSION",
+    "discussion_created_at": "2026-08-30T17:31:30Z",
+    "discussion_id": "D_kwDOSMzDGs4Ao4Jr",
+    "discussion_number": 29,
+    "discussion_url": "https://github.com/JayaSaiKishanChapparam/altara/discussions/29",
+    "raw_response_retained": false,
+    "repository": "JayaSaiKishanChapparam/altara",
+    "source_snapshot_sha256": "ae064e2121484d65f82cfe17d6de9fca6411cbf4ca70ef0e9ef45970c527bc16"
+  },
+  "third_party_evidence": []
+}
