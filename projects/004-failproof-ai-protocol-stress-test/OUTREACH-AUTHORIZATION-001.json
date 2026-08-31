@@ -1,0 +1,75 @@
+{
+  "authorization_effect": {
+    "authorization_is_payload_specific": true,
+    "authorization_is_single_execution": true,
+    "external_write_authorized": true,
+    "external_write_executed": false,
+    "human_authorization_recorded": true,
+    "manual_linkedin_send_authorized": true,
+    "outreach_authorized": true
+  },
+  "authorization_id": "FAILPROOF-LINKEDIN-OUTREACH-AUTHORIZATION-001",
+  "authorized_channel": {
+    "automated_send_authorized": false,
+    "execution_mode": "MANUAL_HUMAN_SEND",
+    "type": "LINKEDIN_PRIVATE_MESSAGE"
+  },
+  "authorized_payload": {
+    "body_sha256": "67ac19f4f85ba22e289ffe3664bf560499c27b3dd4ff2306e3b8c12c9e2da8f2",
+    "canonical_payload_sha256": "183b7f0d91d683da8a90ce4e361b61d0929df411d31509da4e321c585685833d",
+    "channel_modification_authorized": false,
+    "payload_modification_authorized": false,
+    "recipient_modification_authorized": false,
+    "subject_sha256": "1540981a7b0492d0ae2f17ee7ef3e685a0e666de6cc6bf122d0225d54462f2a3"
+  },
+  "authorized_recipient": {
+    "linkedin_identity": "nivedit-jain",
+    "name": "Nivedit Jain"
+  },
+  "baseline": {
+    "draft_record_path": "projects/004-failproof-ai-protocol-stress-test/OUTREACH-DRAFT-001.json",
+    "draft_record_sha256": "c0d484e00ed8cf97182ed4b3544485823cb95d3192c6fefed70f29c73e7d9207",
+    "repository_head_before_authorization": "44c5c1ef89acd71728b9a85bfdc047b74407008c"
+  },
+  "claim_boundary": [
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_EXTERNAL_WRITE_EXECUTION",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_COUNTERPARTY_RESPONSE",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_BUYER_INTENT",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION_BY_COUNTERPARTY",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_COMMERCIAL_RELATIONSHIP",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_PAID_ENGAGEMENT",
+    "AUTHORIZATION_APPLIES_ONLY_TO_EXACT_CANONICAL_PAYLOAD_HASH",
+    "AUTHORIZATION_APPLIES_ONLY_TO_NIVEDIT_JAIN",
+    "AUTHORIZATION_APPLIES_ONLY_TO_LINKEDIN_PRIVATE_MESSAGE",
+    "AUTOMATED_SEND_NOT_AUTHORIZED",
+    "NO_EXTERNAL_WRITE_EXECUTED",
+    "NO_REVENUE_VALIDATED"
+  ],
+  "commercial_state": {
+    "buyer_intent_validated": false,
+    "commercial_relationship_validated": false,
+    "counterparty_response_observed": false,
+    "paid_engagement_validated": false,
+    "qualification_completed": false,
+    "qualified": false,
+    "revenue_validated_eur": 0,
+    "review_authorized_by_counterparty": false,
+    "state": "QUALIFICATION"
+  },
+  "human_authority": {
+    "authority_class": "HUMAN_PROJECT_AUTHORITY",
+    "authorization_interpretation": "Explicit continuation instruction issued immediately after the system presented the exact hash-bound human authorization boundary.",
+    "authorization_source": "CURRENT_CHAT_HUMAN_INSTRUCTION",
+    "cryptographic_signature_present": false,
+    "name": "Manuel Coletta",
+    "platform_message_timestamp_retained": false,
+    "raw_human_instruction": "prosegui"
+  },
+  "next_operational_boundary": "Human authority may manually send the exact authorized LinkedIn payload to Nivedit Jain. After execution, retain the actual sent payload and timestamp in an append-only AS-SENT receipt.",
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "004-failproof-ai-protocol-stress-test",
+  "recorded_at": "2026-08-31T09:10:47.184686Z",
+  "schema": "HBCE_HUMAN_OUTREACH_AUTHORIZATION",
+  "schema_version": "0.1.0"
+}
