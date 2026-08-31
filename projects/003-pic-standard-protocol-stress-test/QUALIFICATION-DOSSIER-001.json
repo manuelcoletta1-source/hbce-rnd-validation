@@ -1,0 +1,98 @@
+{
+  "baseline": {
+    "pilot_release_path": "anchors/PILOT-RELEASE-001.json",
+    "pilot_release_sha256": "72fddd66e5605e6dee4d756a6dbbfb3441b9562d2a7be99a6dff7ea91c764a0d",
+    "repository_head_before_qualification": "394c537dd68c79b4631cfd1a40d178a83d3237cc",
+    "target_selection_path": "projects/003-pic-standard-protocol-stress-test/TARGET-SELECTION-001.json",
+    "target_selection_sha256": "441eb03ddc30cb6760ac753a7f9fc8d3606e68a6d82379ce5a100f782ecba72e"
+  },
+  "claim_boundary": [
+    "PUBLIC_REPOSITORY_ACCESS_DOES_NOT_EQUAL_COUNTERPARTY_REVIEW_AUTHORIZATION",
+    "PUBLIC_CONTACT_SURFACE_DOES_NOT_EQUAL_PROPOSAL_RECEPTIVITY",
+    "TECHNICAL_FIT_DOES_NOT_EQUAL_COMMERCIAL_QUALIFICATION",
+    "QUALIFICATION_STATE_DOES_NOT_EQUAL_QUALIFIED_STATE",
+    "NO_BUYER_INTENT_VALIDATED",
+    "NO_COMMERCIAL_RELATIONSHIP_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED",
+    "NO_OUTREACH_PERFORMED"
+  ],
+  "counterparty": {
+    "commercial_recipient_resolved": false,
+    "organization": "pic-standard",
+    "organization_identity_observed": true,
+    "public_discussions_available": true,
+    "public_issues_available": true,
+    "repository": "pic-standard/pic-standard",
+    "specific_contact_person_resolved": false
+  },
+  "decision": {
+    "external_write_authorized": false,
+    "open_qualification": true,
+    "outreach_authorized": false,
+    "transition_to_qualification_authorized": true,
+    "transition_to_qualified_authorized": false
+  },
+  "exclusion_gate": {
+    "accredited_certification_required": false,
+    "ce_certification_required": false,
+    "false_endorsement_required": false,
+    "false_partnership_required": false,
+    "functional_safety_certification_required": false,
+    "predetermined_conclusion_required": false,
+    "unauthorized_access_required": false
+  },
+  "next_operational_boundary": "Resolve the authorized counterparty contact surface and determine whether the qualification gate can progress to QUALIFIED or must remain unresolved or become NOT_QUALIFIED.",
+  "observed_evidence_surface": {
+    "ci_workflow": true,
+    "conformance_artifacts": true,
+    "conformance_workflow": true,
+    "governance": true,
+    "license": true,
+    "maintainers": true,
+    "readme": true,
+    "security_policy": true,
+    "source_code": true
+  },
+  "opened_at": "2026-08-31T08:25:39.633929Z",
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "003-pic-standard-protocol-stress-test",
+  "qualification_gate": {
+    "applicable_hbce_offer_exists": true,
+    "bounded_question_defined": true,
+    "counterparty_can_receive_commercial_proposal": false,
+    "counterparty_identity_sufficient_for_initial_resolution": true,
+    "public_material_accessible": true,
+    "requested_conclusion_not_predetermined": true,
+    "review_authorized_by_counterparty": false,
+    "technical_target_identifiable": true
+  },
+  "qualification_id": "HBCE-PROSPECT-003-QUALIFICATION-001",
+  "qualification_state": {
+    "commercial_relationship_validated": false,
+    "not_qualified": false,
+    "paid_engagement_validated": false,
+    "qualification_completed": false,
+    "qualified": false,
+    "revenue_validated_eur": 0,
+    "state": "QUALIFICATION"
+  },
+  "technical_target": {
+    "bounded_question": "Can the declared PIC pre-execution provenance, intent and evidence boundary be independently exercised with positive and negative controls while preserving its documented fail-closed behavior?",
+    "frozen_commit": "77d57ce7bd1f3d0e22eff083c08b6e8854144a1c",
+    "offer": "PROTOCOL_STRESS_TEST",
+    "private_material_required_at_current_stage": false,
+    "public_source_access_observed": true,
+    "repository": "pic-standard/pic-standard",
+    "target_price_eur": 750,
+    "technical_fit_validated": true
+  },
+  "unresolved": {
+    "budget": true,
+    "buyer_intent": true,
+    "commercial_proposal_receptivity": true,
+    "commercial_recipient": true,
+    "counterparty_review_authorization": true,
+    "specific_contact_person": true
+  }
+}
