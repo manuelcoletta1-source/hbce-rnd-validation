@@ -1,0 +1,83 @@
+{
+  "authorization_state": {
+    "external_write_authorized_before_execution": true,
+    "pre_send_draft_recorded": true,
+    "pre_send_hash_recorded": true,
+    "pre_send_human_authorization_recorded": true,
+    "process_deviation_present": false,
+    "retroactive_authorization": false
+  },
+  "baseline": {
+    "authorization_sha256": "ca142e47ef630e3e9511a2dea0ca0fa92a0afe1c6e37572c6d89279076fd1bb8",
+    "authorized_payload_sha256": "183b7f0d91d683da8a90ce4e361b61d0929df411d31509da4e321c585685833d",
+    "draft_record_sha256": "c0d484e00ed8cf97182ed4b3544485823cb95d3192c6fefed70f29c73e7d9207",
+    "repository_head_before_receipt": "033d85e52abb1ce2151b2b8bf583bf931890efb1"
+  },
+  "claim_boundary": [
+    "MESSAGE_SENT_DOES_NOT_EQUAL_COUNTERPARTY_RESPONSE",
+    "MESSAGE_SENT_DOES_NOT_EQUAL_BUYER_INTENT",
+    "MESSAGE_SENT_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION",
+    "MESSAGE_SENT_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "MESSAGE_SENT_DOES_NOT_EQUAL_COMMERCIAL_RELATIONSHIP",
+    "MESSAGE_SENT_DOES_NOT_EQUAL_PAID_ENGAGEMENT",
+    "CONVERSATION_RECEIPT_TIME_IS_NOT_LINKEDIN_PLATFORM_TIMESTAMP",
+    "NO_COUNTERPARTY_RESPONSE_OBSERVED",
+    "NO_COMMERCIAL_RELATIONSHIP_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED"
+  ],
+  "commercial_state": {
+    "commercial_relationship_validated": false,
+    "paid_engagement_validated": false,
+    "qualification_completed": false,
+    "qualified": false,
+    "revenue_validated_eur": 0,
+    "state": "QUALIFICATION"
+  },
+  "execution": {
+    "automated_send": false,
+    "channel": "LINKEDIN_PRIVATE_MESSAGE",
+    "execution_mode": "MANUAL_HUMAN_SEND",
+    "external_write_executed": true,
+    "human_execution_confirmation": "inviato",
+    "human_sender": "Manuel Coletta",
+    "organization": "HERMETICUM B.C.E.",
+    "recipient_linkedin_identity": "nivedit-jain",
+    "recipient_name": "Nivedit Jain"
+  },
+  "next_operational_boundary": "OBSERVE_FAILPROOF_COUNTERPARTY_RESPONSE",
+  "payload": {
+    "as_sent_body_path": "projects/004-failproof-ai-protocol-stress-test/OUTREACH-AS-SENT-BODY-001.txt",
+    "as_sent_body_sha256": "67ac19f4f85ba22e289ffe3664bf560499c27b3dd4ff2306e3b8c12c9e2da8f2",
+    "as_sent_canonical_payload_sha256": "183b7f0d91d683da8a90ce4e361b61d0929df411d31509da4e321c585685833d",
+    "as_sent_subject_path": "projects/004-failproof-ai-protocol-stress-test/OUTREACH-AS-SENT-SUBJECT-001.txt",
+    "as_sent_subject_sha256": "1540981a7b0492d0ae2f17ee7ef3e685a0e666de6cc6bf122d0225d54462f2a3",
+    "authorized_payload_sha256": "183b7f0d91d683da8a90ce4e361b61d0929df411d31509da4e321c585685833d",
+    "contains_client_claim": false,
+    "contains_partnership_claim": false,
+    "contains_price": false,
+    "match_basis": "HUMAN_EXECUTION_CONFIRMATION_AND_FROZEN_PAYLOAD",
+    "matches_authorized_payload": true
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "004-failproof-ai-protocol-stress-test",
+  "receipt_id": "FAILPROOF-LINKEDIN-OUTREACH-RECEIPT-001",
+  "recorded_at": "2026-08-31T09:17:21.360936Z",
+  "response_state": {
+    "buyer_intent_validated": false,
+    "commercial_proposal_receptivity_validated": false,
+    "counterparty_response_observed": false,
+    "review_authorized_by_counterparty": false
+  },
+  "schema": "HBCE_AS_SENT_OUTREACH_RECEIPT",
+  "schema_version": "0.1.0",
+  "timing": {
+    "linkedin_platform_timestamp_independently_verified": false,
+    "note": "The user confirmed the outbound message with the instruction 'inviato'. No independent LinkedIn platform timestamp was supplied.",
+    "sent_at_local_reported": "2026-08-31T11:15:08+02:00",
+    "sent_at_timezone": "Europe/Rome",
+    "sent_at_utc_reported": "2026-08-31T09:15:08Z",
+    "timestamp_precision_claim": "CONVERSATION_RECEIPT_REFERENCE",
+    "timestamp_source": "CONVERSATION_RECEIPT_TIME"
+  }
+}
