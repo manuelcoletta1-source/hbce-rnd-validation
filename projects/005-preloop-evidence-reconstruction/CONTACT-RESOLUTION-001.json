@@ -1,0 +1,136 @@
+{
+  "baseline": {
+    "qualification_dossier_path": "projects/005-preloop-evidence-reconstruction/QUALIFICATION-DOSSIER-001.json",
+    "qualification_dossier_sha256": "39467cbfc73640b37d4cedf52e4df1df81d100d3c93d2b30f6a3260bb667ecfe",
+    "repository_head_before_resolution": "cc5baa783c8f145f2feeaa51bd333c9324ba341d"
+  },
+  "channel_strategy": {
+    "automated_linkedin_write_allowed": false,
+    "enterprise_licensing_channel": "sales@preloop.ai",
+    "fallback_commercial_channel": "hello@preloop.ai",
+    "formal_proposal_channel": "EMAIL_AFTER_RECEPTIVITY",
+    "human_linkedin_send_required": true,
+    "preferred_initial_channel": "LINKEDIN",
+    "qualification_contact": "DIMITRIS_MORAITIS_LINKEDIN"
+  },
+  "claim_boundary": [
+    "FOUNDER_AND_CEO_ROLE_DOES_NOT_EQUAL_BUYER_INTENT",
+    "FOUNDER_AND_CEO_ROLE_DOES_NOT_PROVE_SPECIFIC_PURCHASING_AUTHORITY",
+    "PUBLIC_SALES_MAILBOX_DOES_NOT_EQUAL_PROPOSAL_RECEPTIVITY",
+    "COMMERCIAL_RECIPIENT_RESOLVED_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "CONTACT_IDENTITY_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION",
+    "TECHNICAL_PROJECT_INVOLVEMENT_DOES_NOT_EQUAL_BUDGET_AUTHORITY",
+    "LINKEDIN_IDENTITY_DOES_NOT_EQUAL_ACCOUNT_CONTROL_VERIFICATION",
+    "NO_OUTREACH_PERFORMED",
+    "NO_COMMERCIAL_PROPOSAL_SENT",
+    "NO_COMMERCIAL_RELATIONSHIP_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED"
+  ],
+  "commercial_contact_surface": {
+    "commercial_recipient_resolution_basis": "Official Preloop sales and partnerships contact surface.",
+    "commercial_recipient_resolved": true,
+    "enterprise_licensing_email": "sales@preloop.ai",
+    "enterprise_licensing_email_source": "README.md",
+    "organization_sales_surface_resolved": true,
+    "sales_partnerships_email": "hello@preloop.ai",
+    "sales_partnerships_email_source": "https://preloop.ai/about",
+    "specific_purchasing_officer_resolved": false
+  },
+  "contact_surfaces": {
+    "commercial_contact_surface_resolved": true,
+    "enterprise_licensing_email": true,
+    "github_profile": true,
+    "linkedin_profile": true,
+    "official_sales_partnerships_email": true,
+    "specific_contact_person_resolved": true
+  },
+  "decision": {
+    "commercial_proposal_authorized": false,
+    "contact_resolution_completed": true,
+    "email_external_write_authorized": false,
+    "linkedin_external_write_authorized": false,
+    "multichannel_resolution_completed": true,
+    "qualification_outreach_authorized": false,
+    "qualification_outreach_may_be_drafted": true,
+    "technical_delivery_authorized": false,
+    "transition_to_qualified_authorized": false
+  },
+  "github_identity": {
+    "frozen_head_author_observed": true,
+    "login": "d-mo",
+    "official_company_page_link_observed": true,
+    "profile_url": "https://github.com/d-mo",
+    "technical_project_involvement_observed": true
+  },
+  "linkedin_identity": {
+    "account_control_verified": false,
+    "identity": "dimmo",
+    "official_company_page_link_observed": true,
+    "profile_url": "https://www.linkedin.com/in/dimmo/"
+  },
+  "next_operational_boundary": "Prepare an exact LinkedIn-first qualification outreach draft addressed to Dimitris Moraitis. The draft must be frozen and hashed before explicit human authorization and manual send.",
+  "person": {
+    "identity_confidence": "HIGH_OFFICIAL_CORROBORATION",
+    "identity_resolved": true,
+    "name": "Dimitris Moraitis"
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "005-preloop-evidence-reconstruction",
+  "qualification_effect": {
+    "buyer_intent_validated": false,
+    "commercial_contact_surface_resolved": true,
+    "commercial_proposal_receptivity_validated": false,
+    "commercial_recipient_resolved": true,
+    "commercial_state": "QUALIFICATION",
+    "purchasing_authority_validated": false,
+    "qualification_completed": false,
+    "qualified": false,
+    "review_authorized_by_counterparty": false,
+    "specific_contact_person_resolved": true
+  },
+  "recorded_at": "2026-08-31T09:39:38.494815Z",
+  "resolution_id": "PRELOOP-CONTACT-RESOLUTION-001",
+  "role_resolution": {
+    "budget_authority_observed": false,
+    "buyer_authority_validated": false,
+    "chief_executive_role_observed": true,
+    "commercial_role_observed": true,
+    "founder_role_observed": true,
+    "public_role": "Founder & CEO",
+    "purchasing_authority_observed": false,
+    "role_source": "https://preloop.ai/about",
+    "technical_project_involvement_observed": true
+  },
+  "schema": "HBCE_MULTICHANNEL_CONTACT_RESOLUTION",
+  "schema_version": "0.1.0",
+  "source_evidence": {
+    "github_frozen_head": {
+      "author_login": "d-mo",
+      "author_name": "Dimitris Moraitis",
+      "metadata_sha256": "178b5b44be02123233522f826807cd161413728959bbf3b4e92f6f69957b048d",
+      "raw_source_retained": false,
+      "sha": "81f6dca5dda974b13c52b9110a89d0343e4323d6"
+    },
+    "github_readme": {
+      "raw_source_retained": false,
+      "sha256": "3044b12d178745543087c91509a5bb1e894dfd72a48660c7648a58995152e6bf",
+      "url": "https://github.com/preloop/preloop/blob/81f6dca5dda974b13c52b9110a89d0343e4323d6/README.md"
+    },
+    "official_about_page": {
+      "founder_ceo_role_observed": true,
+      "github_link_observed": true,
+      "linkedin_link_observed": true,
+      "raw_source_retained": false,
+      "sales_partnerships_email_observed": true,
+      "sha256": "714db3d1471ffbf973596452a4f70a773ad5f96ac653db7f01968481d28f58e9",
+      "url": "https://preloop.ai/about"
+    }
+  },
+  "target": {
+    "frozen_commit": "81f6dca5dda974b13c52b9110a89d0343e4323d6",
+    "legal_company_observed": "Spacecode.AI, Inc.",
+    "organization": "Preloop",
+    "repository": "preloop/preloop"
+  }
+}
