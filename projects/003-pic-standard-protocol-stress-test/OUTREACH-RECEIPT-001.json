@@ -1,0 +1,94 @@
+{
+  "authorization_state": {
+    "external_write_executed": true,
+    "outreach_authorized_before_execution": false,
+    "pre_send_repository_authorization_recorded": false,
+    "pre_send_repository_draft_recorded": false,
+    "retroactive_authorization_permitted": false
+  },
+  "baseline": {
+    "contact_resolution_path": "projects/003-pic-standard-protocol-stress-test/CONTACT-RESOLUTION-001.json",
+    "contact_resolution_sha256": "5fc312fa109f9c13e4f7b237c8f7c6bff1c00649e9038c9cf2179b076b7a2c04",
+    "repository_head_before_receipt": "40db1d002d239d05852d3d89e0208df687d7ef3a"
+  },
+  "claim_boundary": [
+    "MESSAGE_SENT_DOES_NOT_EQUAL_COUNTERPARTY_RESPONSE",
+    "MESSAGE_SENT_DOES_NOT_EQUAL_BUYER_INTENT",
+    "MESSAGE_SENT_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION",
+    "MESSAGE_SENT_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "MESSAGE_SENT_DOES_NOT_EQUAL_COMMERCIAL_RELATIONSHIP",
+    "MESSAGE_SENT_DOES_NOT_EQUAL_PAID_ENGAGEMENT",
+    "HUMAN_REPORTED_TIMESTAMP_IS_NOT_PLATFORM_VERIFIED_TIMESTAMP",
+    "AS_SENT_RECEIPT_DOES_NOT_RETROACTIVELY_AUTHORIZE_EXECUTION",
+    "NO_COUNTERPARTY_RESPONSE_OBSERVED",
+    "NO_COMMERCIAL_RELATIONSHIP_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED"
+  ],
+  "commercial_state": {
+    "commercial_recipient_resolved": false,
+    "commercial_relationship_validated": false,
+    "paid_engagement_validated": false,
+    "qualification_completed": false,
+    "qualified": false,
+    "revenue_validated_eur": 0,
+    "state": "QUALIFICATION"
+  },
+  "execution": {
+    "automated_send": false,
+    "channel": "LINKEDIN_PRIVATE_MESSAGE",
+    "execution_source": "HUMAN_REPORTED_MANUAL_SEND",
+    "external_write_executed": true,
+    "platform_timestamp_independently_verified": false,
+    "recipient_linkedin_identity": "fmsalvadori",
+    "recipient_name": "Fabio Marcello Salvadori",
+    "recipient_profile": "https://www.linkedin.com/in/fmsalvadori/",
+    "sent_at_local": "2026-08-31T10:41:00+02:00",
+    "sent_at_timezone": "Europe/Rome",
+    "sent_at_utc": "2026-08-31T08:41:00Z",
+    "timestamp_source": "HUMAN_REPORTED"
+  },
+  "next_operational_boundary": "Observe the LinkedIn conversation read-only for a counterparty response. Do not advance commercial state without new verifiable evidence.",
+  "payload": {
+    "body_path": "projects/003-pic-standard-protocol-stress-test/OUTREACH-AS-SENT-BODY-001.txt",
+    "body_sha256": "59a45ef2a3f950b1cda6aec2fa9ec8e8de1b4fe5caf2c91f7a830a92931d7c0b",
+    "canonical_payload_sha256": "64291d2ad9e655759b69aad3506f0b11478d0489105fdfe728628d33bd8f666b",
+    "contains_buyer_claim": false,
+    "contains_client_claim": false,
+    "contains_commercial_acceptance_claim": false,
+    "contains_partnership_claim": false,
+    "contains_price": false,
+    "raw_outbound_payload_retained": true,
+    "subject_path": "projects/003-pic-standard-protocol-stress-test/OUTREACH-AS-SENT-SUBJECT-001.txt",
+    "subject_sha256": "01a558b49b72fb40eb82512cdf0c4ae26a296d165cea563a8227cf614fdca45c"
+  },
+  "process_deviation": {
+    "classification": "PRE_SEND_AUTHORIZATION_NOT_RECORDED",
+    "commercial_claim_impact": "NONE",
+    "description": "The LinkedIn private message was manually sent before an exact payload draft and human authorization artifact were committed to the HBCE repository.",
+    "deviation_id": "HBCE-PROCESS-DEVIATION-001",
+    "deviation_present": true,
+    "evidence_integrity_impact": "AS_SENT evidence is retained after execution based on human-reported payload and timestamp.",
+    "required_future_sequence": [
+      "DRAFT",
+      "HASH",
+      "HUMAN_AUTHORIZATION",
+      "MANUAL_EXTERNAL_WRITE",
+      "AS_SENT_RECEIPT",
+      "RESPONSE_OBSERVATION"
+    ],
+    "retroactive_authorization_created": false,
+    "retroactive_rewrite_performed": false
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "003-pic-standard-protocol-stress-test",
+  "receipt_class": "AS_SENT_EXTERNAL_WRITE_RECEIPT",
+  "receipt_id": "PIC-STANDARD-LINKEDIN-OUTREACH-RECEIPT-001",
+  "recorded_at": "2026-08-31T08:46:30.704697Z",
+  "response_state": {
+    "buyer_intent_validated": false,
+    "commercial_proposal_receptivity_validated": false,
+    "counterparty_response_observed": false,
+    "review_authorized_by_counterparty": false
+  }
+}
