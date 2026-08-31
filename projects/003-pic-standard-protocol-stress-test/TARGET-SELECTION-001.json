@@ -1,0 +1,75 @@
+{
+  "claim_boundary": [
+    "PRIORITY_A_SELECTION_DOES_NOT_EQUAL_QUALIFICATION",
+    "TARGET_SELECTION_DOES_NOT_EQUAL_BUYER_INTENT",
+    "TARGET_SELECTION_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "TARGET_SELECTION_DOES_NOT_EQUAL_CUSTOMER_RELATIONSHIP",
+    "TARGET_SELECTION_DOES_NOT_EQUAL_PARTNERSHIP",
+    "NO_OUTREACH_PERFORMED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED"
+  ],
+  "commercial_state": {
+    "buyer_intent_validated": false,
+    "commercial_relationship_validated": false,
+    "paid_engagement_validated": false,
+    "revenue_validated_eur": 0,
+    "state": "PROSPECT"
+  },
+  "decision": {
+    "external_write_authorized": false,
+    "outreach_authorized": false,
+    "prospect_acquired": true,
+    "qualification_completed": false
+  },
+  "next_operational_boundary": "Qualify prospect 003 against the frozen HBCE qualification gate before any outreach authorization.",
+  "pilot_release": {
+    "path": "anchors/PILOT-RELEASE-001.json",
+    "sha256": "72fddd66e5605e6dee4d756a6dbbfb3441b9562d2a7be99a6dff7ea91c764a0d"
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "003-pic-standard-protocol-stress-test",
+  "selected_at": "2026-08-31T07:56:12.292843Z",
+  "selected_offer": {
+    "offer_id": "PROTOCOL_STRESS_TEST",
+    "target_price_eur": 750
+  },
+  "selection_id": "HBCE-PROSPECT-003-SELECTION-001",
+  "selection_score": {
+    "classification": "PRIORITY_A",
+    "commercial_signal": 8,
+    "evidence_surface": 25,
+    "maintainer_activity": 15,
+    "model_version": "0.1.0",
+    "review_need": 18,
+    "technical_fit": 30,
+    "total": 96
+  },
+  "source_snapshots": {
+    "head_commit_metadata_sha256": "50e56ef34b2a53ea02f4975d8aa77377b329678a4d7ea24f4f2eb23858dc2b4a",
+    "raw_source_retained": false,
+    "repository_metadata_sha256": "742f23e0c515115f2d5306e5172a46cfaf968a01427c68fdc1630ed1d52a50d6"
+  },
+  "target": {
+    "archived": false,
+    "default_branch": "main",
+    "frozen_head_sha": "77d57ce7bd1f3d0e22eff083c08b6e8854144a1c",
+    "has_discussions": true,
+    "license": "Apache-2.0",
+    "open_issues": 21,
+    "owner": "pic-standard",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-24T09:36:46Z",
+    "repository": "pic-standard/pic-standard",
+    "stars": 31
+  },
+  "technical_surface": {
+    "ci_workflow_observed": true,
+    "conformance_artifacts_observed": true,
+    "conformance_workflow_observed": true,
+    "governance_observed": true,
+    "maintainers_observed": true,
+    "readme_observed": true,
+    "security_policy_observed": true
+  }
+}
