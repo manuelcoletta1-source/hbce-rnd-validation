@@ -1,0 +1,130 @@
+{
+  "baseline": {
+    "pilot_release_path": "anchors/PILOT-RELEASE-001.json",
+    "pilot_release_sha256": "72fddd66e5605e6dee4d756a6dbbfb3441b9562d2a7be99a6dff7ea91c764a0d",
+    "repository_head_before_qualification": "5dabec19303ffa12d0daedcf4f8f6d1f48406536",
+    "target_selection_path": "projects/005-preloop-evidence-reconstruction/TARGET-SELECTION-001.json",
+    "target_selection_sha256": "da213b9ec3ac39c3a49428123ccbe360e77fe40ab09cab99718fdd035de9fccd"
+  },
+  "claim_boundary": [
+    "PUBLIC_EVIDENCE_PACK_DOES_NOT_EQUAL_HBCE_RECONSTRUCTION",
+    "PUBLIC_RESULT_JSON_SCHEMA_DOES_NOT_EQUAL_VALIDATED_EXECUTION",
+    "PUBLIC_REPOSITORY_ACCESS_DOES_NOT_EQUAL_COUNTERPARTY_REVIEW_AUTHORIZATION",
+    "MACHINE_GENERATED_EVIDENCE_DOES_NOT_EQUAL_CONFORMITY_ASSESSMENT",
+    "CRA_OR_AI_ACT_SUPPORT_LANGUAGE_DOES_NOT_EQUAL_CERTIFICATION",
+    "PUBLIC_SALES_EMAIL_DOES_NOT_EQUAL_BUYER_INTENT",
+    "TECHNICAL_FIT_DOES_NOT_EQUAL_COMMERCIAL_QUALIFICATION",
+    "PRIORITY_A_DOES_NOT_EQUAL_QUALIFIED",
+    "QUALIFICATION_STATE_DOES_NOT_EQUAL_QUALIFIED_STATE",
+    "NO_BUYER_INTENT_VALIDATED",
+    "NO_COMMERCIAL_RELATIONSHIP_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED",
+    "NO_OUTREACH_PERFORMED"
+  ],
+  "counterparty": {
+    "commercial_recipient_resolved": false,
+    "organization": "Preloop",
+    "organization_identity_observed": true,
+    "public_sales_email": "sales@preloop.ai",
+    "public_sales_email_observed": true,
+    "repository": "preloop/preloop",
+    "specific_contact_person_resolved": false
+  },
+  "decision": {
+    "external_write_authorized": false,
+    "open_qualification": true,
+    "outreach_authorized": false,
+    "technical_delivery_authorized": false,
+    "transition_to_qualification_authorized": true,
+    "transition_to_qualified_authorized": false
+  },
+  "exclusion_gate": {
+    "accredited_certification_required": false,
+    "ce_certification_required": false,
+    "false_endorsement_required": false,
+    "false_partnership_required": false,
+    "functional_safety_certification_required": false,
+    "legal_compliance_opinion_required": false,
+    "predetermined_conclusion_required": false,
+    "unauthorized_access_required": false
+  },
+  "next_operational_boundary": "Resolve the Preloop counterparty contact and commercial authority surface before any qualification outreach or proposal.",
+  "observed_evidence_surface": {
+    "agent_assessments": true,
+    "architecture_documentation": true,
+    "ci_workflow": true,
+    "customer_artifacts": false,
+    "deterministic_checks": true,
+    "evidence_directory_contract": true,
+    "human_approvals": true,
+    "negative_controls": true,
+    "private_execution_artifacts": false,
+    "public_repository": true,
+    "runtime_observability": true,
+    "security_audit_presets": true,
+    "security_policy": true,
+    "versioned_result_json_contract": true
+  },
+  "opened_at": "2026-08-31T09:30:24.923213Z",
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "005-preloop-evidence-reconstruction",
+  "qualification_gate": {
+    "applicable_hbce_offer_exists": true,
+    "bounded_question_defined": true,
+    "counterparty_can_receive_commercial_proposal": false,
+    "counterparty_identity_sufficient_for_initial_resolution": true,
+    "public_material_accessible": true,
+    "requested_conclusion_not_predetermined": true,
+    "review_authorized_by_counterparty": false,
+    "technical_target_identifiable": true
+  },
+  "qualification_id": "HBCE-PROSPECT-005-QUALIFICATION-001",
+  "qualification_state": {
+    "commercial_relationship_validated": false,
+    "not_qualified": false,
+    "paid_engagement_validated": false,
+    "qualification_completed": false,
+    "qualified": false,
+    "revenue_validated_eur": 0,
+    "state": "QUALIFICATION"
+  },
+  "reconstruction_scope": {
+    "candidate_inputs": [
+      "public preset definitions",
+      "public result.json schemas",
+      "public evidence-pack contract",
+      "public repository state"
+    ],
+    "candidate_outputs": [
+      "independent reconstruction record",
+      "digest verification table",
+      "lifecycle verification",
+      "evidence manifest",
+      "evidence-gap report"
+    ],
+    "hbce_execution_performed": false,
+    "hbce_independent_reconstruction_completed": false,
+    "production_or_customer_environment_required": false
+  },
+  "technical_target": {
+    "bounded_question": "Can Preloop's declared machine-generated evidence-pack lifecycle, including its versioned result.json, deterministic checks, agent assessments, negative-control records and referenced evidence artifacts, be independently reconstructed from a bounded public execution surface while preserving the declared distinction between observed evidence, agent judgment and conformity claims?",
+    "frozen_commit": "81f6dca5dda974b13c52b9110a89d0343e4323d6",
+    "offer": "EVIDENCE_RECONSTRUCTION",
+    "private_material_required_at_current_stage": false,
+    "public_source_access_observed": true,
+    "repository": "preloop/preloop",
+    "target_price_eur": 650,
+    "technical_fit_validated": true
+  },
+  "unresolved": {
+    "availability_of_concrete_execution_artifact": true,
+    "budget": true,
+    "buyer_intent": true,
+    "commercial_proposal_receptivity": true,
+    "commercial_recipient": true,
+    "counterparty_review_authorization": true,
+    "purchasing_authority": true,
+    "specific_contact_person": true
+  }
+}
