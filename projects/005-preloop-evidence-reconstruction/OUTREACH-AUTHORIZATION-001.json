@@ -1,0 +1,90 @@
+{
+  "authorization_effect": {
+    "authorization_is_channel_specific": true,
+    "authorization_is_payload_specific": true,
+    "authorization_is_recipient_specific": true,
+    "external_write_authorized": true,
+    "external_write_executed": false,
+    "human_authorization_recorded": true,
+    "manual_linkedin_send_authorized": true,
+    "outreach_authorized": true
+  },
+  "authorization_id": "PRELOOP-LINKEDIN-OUTREACH-AUTHORIZATION-001",
+  "authorization_scope": {
+    "authorization_reusable": false,
+    "formal_commercial_proposal": false,
+    "price_disclosure_authorized": false,
+    "qualification_outreach": true,
+    "single_manual_execution": true,
+    "technical_delivery_authorized": false
+  },
+  "authorized_channel": {
+    "automated_send_authorized": false,
+    "channel_modification_authorized": false,
+    "execution_mode": "MANUAL_HUMAN_SEND",
+    "type": "LINKEDIN_PRIVATE_MESSAGE"
+  },
+  "authorized_payload": {
+    "body_sha256": "221e5ee4106b7b3483a8594e21463c38c50f2b35526d4a6c1e98e7c7ab91a08e",
+    "canonical_payload_sha256": "45400c2fcf8b2575979593f251420b9a2eb0d29aa2159952aa27258cb481e01a",
+    "payload_modification_authorized": false,
+    "subject_present": false
+  },
+  "authorized_recipient": {
+    "linkedin_identity": "dimmo",
+    "name": "Dimitris Moraitis",
+    "recipient_modification_authorized": false
+  },
+  "baseline": {
+    "draft_record_path": "projects/005-preloop-evidence-reconstruction/OUTREACH-DRAFT-001.json",
+    "draft_record_sha256": "3744b560f42382167d3af1b4b416fc9fc1c47dc02d28ff680ce9fbb900794302",
+    "repository_head_before_authorization": "64c3cfbcb5778943fc8b143cd40aea7348e2b53b"
+  },
+  "claim_boundary": [
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_EXTERNAL_WRITE_EXECUTION",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_COUNTERPARTY_RESPONSE",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_BUYER_INTENT",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_COMMERCIAL_PROPOSAL",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_COMMERCIAL_RELATIONSHIP",
+    "HUMAN_AUTHORIZATION_DOES_NOT_EQUAL_PAID_ENGAGEMENT",
+    "AUTHORIZATION_APPLIES_ONLY_TO_EXACT_CANONICAL_PAYLOAD_HASH",
+    "AUTHORIZATION_APPLIES_ONLY_TO_DIMITRIS_MORAITIS",
+    "AUTHORIZATION_APPLIES_ONLY_TO_LINKEDIN_PRIVATE_MESSAGE",
+    "PAYLOAD_MODIFICATION_NOT_AUTHORIZED",
+    "RECIPIENT_MODIFICATION_NOT_AUTHORIZED",
+    "CHANNEL_MODIFICATION_NOT_AUTHORIZED",
+    "AUTOMATED_SEND_NOT_AUTHORIZED",
+    "NO_EXTERNAL_WRITE_EXECUTED",
+    "NO_REVENUE_VALIDATED"
+  ],
+  "commercial_state": {
+    "buyer_intent_validated": false,
+    "commercial_proposal_receptivity_validated": false,
+    "commercial_relationship_validated": false,
+    "counterparty_response_observed": false,
+    "paid_engagement_validated": false,
+    "qualification_completed": false,
+    "qualified": false,
+    "revenue_validated_eur": 0,
+    "review_authorized_by_counterparty": false,
+    "state": "QUALIFICATION"
+  },
+  "human_authority": {
+    "authority_class": "HUMAN_PROJECT_AUTHORITY",
+    "authorization_command": "AUTORIZZA D022-E",
+    "authorization_source": "CURRENT_CHAT_EXPLICIT_HUMAN_INSTRUCTION",
+    "authorized_payload_sha256": "45400c2fcf8b2575979593f251420b9a2eb0d29aa2159952aa27258cb481e01a",
+    "cryptographic_signature_present": false,
+    "explicit_no_modification_constraint": true,
+    "name": "Manuel Coletta",
+    "platform_message_timestamp_retained": false
+  },
+  "next_operational_boundary": "Human authority may manually send the exact authorized LinkedIn payload to Dimitris Moraitis. After execution, retain an append-only AS-SENT receipt before interpreting any counterparty response.",
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "005-preloop-evidence-reconstruction",
+  "recorded_at": "2026-08-31T09:44:34.641584Z",
+  "schema": "HBCE_HUMAN_OUTREACH_AUTHORIZATION",
+  "schema_version": "0.2.0"
+}
