@@ -1,0 +1,13 @@
+Hi Dimitris,
+
+I’ve been reviewing Preloop’s public evidence-pack surface, particularly the versioned result.json contracts, referenced evidence artifacts, negative-control semantics, and the separation between deterministic checks and agent assessments.
+
+I’m building HERMETICUM B.C.E., an independent R&D validation framework focused on reconstructable evidence, bounded technical claims, and explicit evidence gaps.
+
+Preloop looks like a strong candidate for a bounded independent Evidence Reconstruction using its public artifacts and, if useful, a concrete execution pack you choose to provide. The objective would be to test whether the evidence lifecycle can be reconstructed independently without turning machine-generated evidence into a conformity or certification claim.
+
+Would you be open to discussing this kind of external review, or is there someone else I should speak with regarding technical or commercial engagements around Preloop?
+
+Best,
+Manuel Coletta
+HERMETICUM B.C.E.

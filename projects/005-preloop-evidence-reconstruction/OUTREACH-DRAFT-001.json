@@ -1,0 +1,101 @@
+{
+  "authorization_state": {
+    "draft_frozen": true,
+    "draft_hashed": true,
+    "external_write_authorized": false,
+    "external_write_executed": false,
+    "human_authorization_recorded": false,
+    "human_review_required": true,
+    "outreach_authorized": false
+  },
+  "baseline": {
+    "contact_resolution_path": "projects/005-preloop-evidence-reconstruction/CONTACT-RESOLUTION-001.json",
+    "contact_resolution_sha256": "8a4c4dcb9ba5e91871696f47db2e71af42ff7e42d992537bec03195494834204",
+    "repository_head_before_draft": "4cd89a6ce4a5c56edf30d3c66eaddc05fa143e85"
+  },
+  "channel": {
+    "automated_send_allowed": false,
+    "execution_mode": "MANUAL_HUMAN_SEND",
+    "transmitted_subject_present": false,
+    "type": "LINKEDIN_PRIVATE_MESSAGE"
+  },
+  "claim_boundary": [
+    "DRAFT_DOES_NOT_EQUAL_EXTERNAL_WRITE",
+    "DRAFT_DOES_NOT_EQUAL_OUTREACH_AUTHORIZATION",
+    "DRAFT_DOES_NOT_EQUAL_COUNTERPARTY_RESPONSE",
+    "DRAFT_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION",
+    "DRAFT_DOES_NOT_EQUAL_BUYER_INTENT",
+    "DRAFT_DOES_NOT_EQUAL_COMMERCIAL_PROPOSAL",
+    "DRAFT_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "DRAFT_DOES_NOT_EQUAL_COMMERCIAL_RELATIONSHIP",
+    "EVIDENCE_RECONSTRUCTION_DOES_NOT_EQUAL_CERTIFICATION",
+    "EVIDENCE_RECONSTRUCTION_DOES_NOT_EQUAL_CONFORMITY_ASSESSMENT",
+    "NO_EXTERNAL_WRITE_EXECUTED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED"
+  ],
+  "commercial_state": {
+    "buyer_intent_validated": false,
+    "commercial_proposal_receptivity_validated": false,
+    "commercial_relationship_validated": false,
+    "counterparty_response_observed": false,
+    "paid_engagement_validated": false,
+    "qualification_completed": false,
+    "qualified": false,
+    "revenue_validated_eur": 0,
+    "review_authorized_by_counterparty": false,
+    "state": "QUALIFICATION"
+  },
+  "created_at": "2026-08-31T09:42:02.000715Z",
+  "draft_id": "PRELOOP-LINKEDIN-QUALIFICATION-DRAFT-001",
+  "next_operational_boundary": "Human project authority must review and explicitly authorize this exact canonical payload hash before manual LinkedIn execution.",
+  "payload": {
+    "body_path": "projects/005-preloop-evidence-reconstruction/OUTREACH-DRAFT-BODY-001.txt",
+    "body_sha256": "221e5ee4106b7b3483a8594e21463c38c50f2b35526d4a6c1e98e7c7ab91a08e",
+    "canonical_payload_fields": [
+      "body",
+      "channel",
+      "recipient_linkedin_identity",
+      "recipient_name"
+    ],
+    "canonical_payload_sha256": "45400c2fcf8b2575979593f251420b9a2eb0d29aa2159952aa27258cb481e01a",
+    "contains_buyer_claim": false,
+    "contains_certification_claim": false,
+    "contains_client_claim": false,
+    "contains_conformity_claim": false,
+    "contains_counterparty_authorization_claim": false,
+    "contains_partnership_claim": false,
+    "contains_price": false,
+    "internal_label": "Independent Evidence Reconstruction for Preloop"
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "005-preloop-evidence-reconstruction",
+  "purpose": {
+    "class": "QUALIFICATION_OUTREACH",
+    "formal_commercial_proposal": false,
+    "objective": "Determine whether Dimitris Moraitis is receptive to discussing a bounded independent Evidence Reconstruction engagement or can route HBCE to the correct Preloop technical or commercial contact.",
+    "offer": "EVIDENCE_RECONSTRUCTION",
+    "offer_target_price_eur": 650,
+    "price_disclosed_in_message": false
+  },
+  "recipient": {
+    "budget_authority_validated": false,
+    "buyer_intent_validated": false,
+    "commercial_recipient_resolved": true,
+    "linkedin_identity": "dimmo",
+    "linkedin_profile": "https://www.linkedin.com/in/dimmo/",
+    "name": "Dimitris Moraitis",
+    "public_role": "Founder & CEO",
+    "purchasing_authority_validated": false
+  },
+  "schema": "HBCE_OUTREACH_DRAFT",
+  "schema_version": "0.2.0",
+  "technical_boundary": {
+    "certification_or_conformity_assessment_requested": false,
+    "counterparty_execution_pack_requested_as_requirement": false,
+    "counterparty_may_voluntarily_provide_execution_pack": true,
+    "hbce_reconstruction_completed": false,
+    "private_execution_pack_assumed_available": false,
+    "public_artifacts_may_be_discussed": true
+  }
+}
