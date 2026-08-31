@@ -1,0 +1,50 @@
+{
+  "channel": {
+    "candidate": "GITHUB_DISCUSSIONS",
+    "public_surface_validated": true
+  },
+  "claim_boundary": [
+    "MESSAGE_READY_DOES_NOT_EQUAL_SEND_AUTHORIZED",
+    "SEND_DOES_NOT_EQUAL_BUYER_INTENT",
+    "SEND_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION",
+    "SEND_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "NO_CUSTOMER_RELATIONSHIP_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_PARTNERSHIP_VALIDATED",
+    "NO_ENDORSEMENT_VALIDATED"
+  ],
+  "commercial_state": "QUALIFICATION",
+  "genealogy": {
+    "contact_resolution_sha256": "f3b6342991ea8371be535145d3a5b4026de9b9a1b935b59f8d0cdc91202ee52e",
+    "outreach_draft_sha256": "d9b916cad4dddef4c76485c0cecc1d8358ff5eb650b96dc8b9c8bff6d8e11747",
+    "qualification_dossier_sha256": "1ba0f53127678295465c02f203ef4de8204e3e449b44ff9bdef35ff6b5506714",
+    "qualification_transition_event_sha256": "60161fde2b30cd242b9c93c6d10fb3a420853fe45e6ffdde212ab44fcf3c5c07"
+  },
+  "message": {
+    "draft_validated": true,
+    "finding_predetermined": false,
+    "fixed_price_eur": 350,
+    "offer": "ARTIFACT_REVIEW",
+    "public_artifacts_only": true,
+    "security_information_withheld_for_payment": false
+  },
+  "observed_at": "2026-08-30T16:16:40Z",
+  "project_id": "002-altara-artifact-review",
+  "readiness": {
+    "commercial_machine_valid": true,
+    "contact_performed": false,
+    "contact_surface_valid": true,
+    "genealogy_valid": true,
+    "message_ready": true,
+    "send_authorized": false,
+    "transition_to_qualified_authorized": false
+  },
+  "readiness_id": "ALTARA-OUTREACH-READINESS-001",
+  "unresolved_before_external_response": [
+    "BUYER_INTENT",
+    "REVIEW_AUTHORIZATION",
+    "PROPOSAL_RECEPTIVITY",
+    "BUDGET",
+    "COUNTERPARTY_COMMERCIAL_AUTHORITY"
+  ]
+}

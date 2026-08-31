@@ -1,0 +1,52 @@
+{
+  "claim_boundary": [
+    "CONTACT_PERFORMED_DOES_NOT_EQUAL_RESPONSE",
+    "CONTACT_PERFORMED_DOES_NOT_EQUAL_BUYER_INTENT",
+    "CONTACT_PERFORMED_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION",
+    "CONTACT_PERFORMED_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "NO_CUSTOMER_RELATIONSHIP_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_PARTNERSHIP_VALIDATED",
+    "NO_ENDORSEMENT_VALIDATED"
+  ],
+  "commercial_state_after_execution": "QUALIFICATION",
+  "execution": {
+    "author": "manuelcoletta1-source",
+    "category": "General",
+    "category_id": "DIC_kwDOSMzDGs4C8hok",
+    "category_slug": "general",
+    "channel": "GITHUB_DISCUSSIONS",
+    "contact_performed": true,
+    "discussion_created_at": "2026-08-30T17:31:30Z",
+    "discussion_id": "D_kwDOSMzDGs4Ao4Jr",
+    "discussion_number": 29,
+    "discussion_url": "https://github.com/JayaSaiKishanChapparam/altara/discussions/29",
+    "external_write_observed": true,
+    "receipt_observed_at": "2026-08-30T17:31:32Z",
+    "repository": "JayaSaiKishanChapparam/altara"
+  },
+  "external_state": {
+    "buyer_intent_validated": false,
+    "commercial_relationship_validated": false,
+    "counterparty_response_observed": false,
+    "message_sent": true,
+    "paid_engagement_validated": false,
+    "proposal_receptivity_validated": false,
+    "revenue_validated_eur": 0,
+    "review_authorized_by_counterparty": false,
+    "transition_to_qualified_authorized": false
+  },
+  "genealogy": {
+    "outreach_authorization_sha256": "78facd66085c3aa25dc9b59cf5a17ccea9d3bc0938531825c74313716f84dcb9",
+    "outreach_readiness_sha256": "b4ad20f731c732c5db86e010ff5364615ca64bb072b2aa2d104d59a117b48d7a"
+  },
+  "payload": {
+    "authorized_draft_sha256": "d9b916cad4dddef4c76485c0cecc1d8358ff5eb650b96dc8b9c8bff6d8e11747",
+    "body_payload_sha256": "bc5a72c1eb7df97f7a251a3458854c06a3a0fe3d9f661ec98534a04154d34df5",
+    "remote_body_verified": true,
+    "remote_canonical_body_sha256": "68976e25614ee52cf85921730d6efa0ab09baf534f7742c41fdd5419f5339c49",
+    "title_payload_sha256": "9fa496aa68ef3c559f24692f3aa216a4b93e9a20f5987b3301a0d8f60e3c4d66"
+  },
+  "project_id": "002-altara-artifact-review",
+  "receipt_id": "ALTARA-OUTREACH-RECEIPT-001"
+}

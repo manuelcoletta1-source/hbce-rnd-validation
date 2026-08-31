@@ -1,0 +1,28 @@
+{
+  "commercial": {
+    "agreed_price_eur": null,
+    "commercial_relationship_validated": false,
+    "last_transition": {
+      "event_sha256": "60161fde2b30cd242b9c93c6d10fb3a420853fe45e6ffdde212ab44fcf3c5c07",
+      "occurred_at": "2026-08-30T16:04:05.789015+00:00",
+      "sequence": 1
+    },
+    "model_version": "0.1.0",
+    "offer_id": "ARTIFACT_REVIEW",
+    "offer_name": "Artifact Review",
+    "paid_engagement_validated": false,
+    "paid_eur": 0,
+    "payment_state": "NOT_AGREED",
+    "state": "QUALIFICATION",
+    "target_price_eur": 350
+  },
+  "created_at": "2026-08-30T15:54:12.812526+00:00",
+  "name": "Altara Artifact Review",
+  "offer": "ARTIFACT_REVIEW",
+  "project_id": "002-altara-artifact-review",
+  "state": "INTAKE",
+  "technical": {
+    "closure_state": "NOT_EVALUATED",
+    "state": "INTAKE"
+  }
+}

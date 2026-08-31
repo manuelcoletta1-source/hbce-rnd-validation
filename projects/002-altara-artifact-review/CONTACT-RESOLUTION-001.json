@@ -1,0 +1,61 @@
+{
+  "claim_boundary": [
+    "PUBLIC_CONTACT_SURFACE_DOES_NOT_EQUAL_BUYER_INTENT",
+    "PUBLIC_CONTACT_SURFACE_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION",
+    "PUBLIC_CONTACT_SURFACE_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "NO_CUSTOMER_RELATIONSHIP_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_PARTNERSHIP_VALIDATED",
+    "NO_ENDORSEMENT_VALIDATED",
+    "NO_OUTREACH_PERFORMED"
+  ],
+  "decision": {
+    "outreach_authorized": false,
+    "public_contact_surface_validated": true,
+    "qualification_complete": false,
+    "transition_to_qualified_authorized": false
+  },
+  "evidence_id": "ALTARA-CONTACT-RESOLUTION-001",
+  "genealogy": {
+    "commercial_state_at_resolution": "QUALIFICATION",
+    "qualification_dossier_sha256": "1ba0f53127678295465c02f203ef4de8204e3e449b44ff9bdef35ff6b5506714",
+    "qualification_transition_event_sha256": "60161fde2b30cd242b9c93c6d10fb3a420853fe45e6ffdde212ab44fcf3c5c07"
+  },
+  "observed_at": "2026-08-30T16:10:06Z",
+  "project_id": "002-altara-artifact-review",
+  "public_contact_surface": {
+    "github_discussions_observed": true,
+    "github_issues_observed": true,
+    "public_website_observed": true,
+    "repository_owner_resolved": true,
+    "selected_candidate_channel": "GITHUB_DISCUSSIONS",
+    "selection_reason": "The repository presents GitHub Discussions as a surface for questions and ideas. Repository contribution guidance reserves issues primarily for reproducible technical problems, so an issue is not selected for commercial outreach."
+  },
+  "source_observations": [
+    {
+      "observation": "Altara exposes GitHub Discussions and GitHub Issues as public repository surfaces.",
+      "source": "PUBLIC_GITHUB_REPOSITORY"
+    },
+    {
+      "observation": "Issue reporting guidance requests a clear technical reproduction, so the issue tracker is not selected as the first commercial outreach channel.",
+      "source": "PUBLIC_CONTRIBUTING_GUIDANCE"
+    },
+    {
+      "observation": "The public repository owner is JayaSaiKishanChapparam.",
+      "source": "PUBLIC_REPOSITORY_METADATA"
+    }
+  ],
+  "target": {
+    "frozen_review_commit": "7fca9f21c1b61cb95141374b00595ab9a0d9ac1c",
+    "repository": "JayaSaiKishanChapparam/altara",
+    "repository_owner": "JayaSaiKishanChapparam"
+  },
+  "unresolved": {
+    "budget": null,
+    "buyer_intent": null,
+    "commercial_proposal_welcome": null,
+    "counterparty_can_receive_commercial_proposal": null,
+    "legal_entity_or_procurement_identity": null,
+    "review_authorized_by_counterparty": null
+  }
+}

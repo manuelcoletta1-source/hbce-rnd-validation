@@ -1,0 +1,102 @@
+{
+  "artifacts": {
+    "CLOSURE.json": {
+      "path": "projects/002-altara-artifact-review/CLOSURE.json",
+      "sha256": "680d2a1c062240dafcb98c4cf562caaf706c62ef1c4499a9be5d9c2c5ab6a040"
+    },
+    "COMMERCIAL_EVENTS.jsonl": {
+      "path": "projects/002-altara-artifact-review/COMMERCIAL_EVENTS.jsonl",
+      "sha256": "76870e4e4d256005d0f92a900adcbbea2bcf89255b6103ac766ab5406eee5581"
+    },
+    "CONTACT-RESOLUTION-001.json": {
+      "path": "projects/002-altara-artifact-review/CONTACT-RESOLUTION-001.json",
+      "sha256": "f3b6342991ea8371be535145d3a5b4026de9b9a1b935b59f8d0cdc91202ee52e"
+    },
+    "ENGAGEMENT.md": {
+      "path": "projects/002-altara-artifact-review/ENGAGEMENT.md",
+      "sha256": "74ba5958d9fa765bf674e682472ffcc40836c46daad97a4f14ae46f31612ac8a"
+    },
+    "FINDINGS.md": {
+      "path": "projects/002-altara-artifact-review/FINDINGS.md",
+      "sha256": "a52d28ceeec51e9f213b2795b0caab4e3831dd6915c76dc0d15472f59d13de87"
+    },
+    "INTAKE.md": {
+      "path": "projects/002-altara-artifact-review/INTAKE.md",
+      "sha256": "749bcd0970d1039841af94aeb954902f78f321ec5e4919f8e4b771d0574896eb"
+    },
+    "OUTREACH-AUTHORIZATION-001.json": {
+      "path": "projects/002-altara-artifact-review/OUTREACH-AUTHORIZATION-001.json",
+      "sha256": "78facd66085c3aa25dc9b59cf5a17ccea9d3bc0938531825c74313716f84dcb9"
+    },
+    "OUTREACH-DRAFT-001.md": {
+      "path": "projects/002-altara-artifact-review/OUTREACH-DRAFT-001.md",
+      "sha256": "d9b916cad4dddef4c76485c0cecc1d8358ff5eb650b96dc8b9c8bff6d8e11747"
+    },
+    "OUTREACH-READINESS-001.json": {
+      "path": "projects/002-altara-artifact-review/OUTREACH-READINESS-001.json",
+      "sha256": "b4ad20f731c732c5db86e010ff5364615ca64bb072b2aa2d104d59a117b48d7a"
+    },
+    "OUTREACH-RECEIPT-001.json": {
+      "path": "projects/002-altara-artifact-review/OUTREACH-RECEIPT-001.json",
+      "sha256": "d47b130bdadc66d67088757bf86725e0c75bb58ba48f88b0c2d9a644fb73ead5"
+    },
+    "PROJECT.json": {
+      "path": "projects/002-altara-artifact-review/PROJECT.json",
+      "sha256": "735a6738d5630dd4a921b21526aa9167db38b4ebcecdafb0d625217055a64c26"
+    },
+    "PROPOSAL.md": {
+      "path": "projects/002-altara-artifact-review/PROPOSAL.md",
+      "sha256": "ce0ebb179d318c341cf7a6b04adfdd00cc3e9c710e241b528f01873779a949b8"
+    },
+    "QUALIFICATION.md": {
+      "path": "projects/002-altara-artifact-review/QUALIFICATION.md",
+      "sha256": "1ba0f53127678295465c02f203ef4de8204e3e449b44ff9bdef35ff6b5506714"
+    }
+  },
+  "checkpoint_id": "HBCE-PRELAUNCH-5K-RND-FIRST-EXTERNAL-CONTACT-001",
+  "claim_boundary": [
+    "CONTACT_PERFORMED_DOES_NOT_EQUAL_BUYER_INTENT",
+    "CONTACT_PERFORMED_DOES_NOT_EQUAL_COMMERCIAL_RELATIONSHIP",
+    "CONTACT_PERFORMED_DOES_NOT_EQUAL_PARTNERSHIP",
+    "CONTACT_PERFORMED_DOES_NOT_EQUAL_PAID_ENGAGEMENT",
+    "CONTACT_PERFORMED_DOES_NOT_EQUAL_REVENUE",
+    "NO_COUNTERPARTY_RESPONSE_OBSERVED",
+    "NO_BUYER_INTENT_VALIDATED",
+    "NO_REVIEW_AUTHORIZATION_VALIDATED",
+    "NO_PROPOSAL_RECEPTIVITY_VALIDATED",
+    "NO_COMMERCIAL_RELATIONSHIP_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED"
+  ],
+  "commercial_state": {
+    "agreed_price_eur": null,
+    "commercial_relationship_validated": false,
+    "paid_engagement_validated": false,
+    "paid_eur": 0,
+    "payment_state": "NOT_AGREED",
+    "revenue_validated_eur": 0,
+    "state": "QUALIFICATION"
+  },
+  "external_contact": {
+    "author": "manuelcoletta1-source",
+    "category": "General",
+    "channel": "GITHUB_DISCUSSION",
+    "counterparty_response_observed": false,
+    "created_at": "2026-08-30T17:31:30Z",
+    "discussion_id": "D_kwDOSMzDGs4Ao4Jr",
+    "discussion_number": 29,
+    "discussion_url": "https://github.com/JayaSaiKishanChapparam/altara/discussions/29",
+    "performed": true,
+    "repository": "JayaSaiKishanChapparam/altara",
+    "verified": true
+  },
+  "next_operational_boundary": "Observe a counterparty response without advancing commercial state unless independently verifiable evidence satisfies the required commercial transition.",
+  "outreach_receipt": {
+    "path": "projects/002-altara-artifact-review/OUTREACH-RECEIPT-001.json",
+    "sha256": "d47b130bdadc66d67088757bf86725e0c75bb58ba48f88b0c2d9a644fb73ead5"
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "002-altara-artifact-review",
+  "repository_head_before_checkpoint": "4d7247d896f69be5d951824c19d306ebffebf7ab",
+  "state": "FIRST_EXTERNAL_COMMERCIAL_CONTACT_VERIFIED"
+}

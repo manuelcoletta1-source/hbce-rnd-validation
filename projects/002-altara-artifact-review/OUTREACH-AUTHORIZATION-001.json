@@ -1,0 +1,39 @@
+{
+  "authority_boundary": {
+    "buyer_intent_validated": false,
+    "commercial_relationship_validated": false,
+    "contact_performed": false,
+    "paid_engagement_validated": false,
+    "review_authorized_by_counterparty": false,
+    "send_authorized": true,
+    "transition_to_qualified_authorized": false
+  },
+  "authorization_id": "ALTARA-OUTREACH-AUTHORIZATION-001",
+  "authorization_source": "EXPLICIT_LOCAL_OPERATOR_COMMAND",
+  "authorization_type": "EXPLICIT_HUMAN_SEND_AUTHORIZATION",
+  "authorized_at": "2026-08-30T16:24:09Z",
+  "authorized_by_local_git_identity": "Manuel Coletta",
+  "authorized_message": {
+    "artifact": "OUTREACH-DRAFT-001.md",
+    "channel": "GITHUB_DISCUSSIONS",
+    "sha256": "d9b916cad4dddef4c76485c0cecc1d8358ff5eb650b96dc8b9c8bff6d8e11747"
+  },
+  "claim_boundary": [
+    "SEND_AUTHORIZATION_DOES_NOT_EQUAL_CONTACT_PERFORMED",
+    "SEND_AUTHORIZATION_DOES_NOT_EQUAL_BUYER_INTENT",
+    "SEND_AUTHORIZATION_DOES_NOT_EQUAL_COUNTERPARTY_REVIEW_AUTHORIZATION",
+    "SEND_AUTHORIZATION_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "NO_CUSTOMER_RELATIONSHIP_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_PARTNERSHIP_VALIDATED",
+    "NO_ENDORSEMENT_VALIDATED"
+  ],
+  "commercial_state_at_authorization": "QUALIFICATION",
+  "decision": "SEND_AUTHORIZED",
+  "genealogy": {
+    "commercial_transition_event_sha256": "60161fde2b30cd242b9c93c6d10fb3a420853fe45e6ffdde212ab44fcf3c5c07",
+    "contact_resolution_sha256": "f3b6342991ea8371be535145d3a5b4026de9b9a1b935b59f8d0cdc91202ee52e",
+    "outreach_readiness_sha256": "b4ad20f731c732c5db86e010ff5364615ca64bb072b2aa2d104d59a117b48d7a"
+  },
+  "project_id": "002-altara-artifact-review"
+}
