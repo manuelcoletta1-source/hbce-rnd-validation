@@ -1,0 +1,129 @@
+{
+  "baseline": {
+    "qualification_dossier_path": "projects/004-failproof-ai-protocol-stress-test/QUALIFICATION-DOSSIER-001.json",
+    "qualification_dossier_sha256": "c7a48a170fd547d4af8bb7419607d06c6096c4021a41c71066617b8b005095a1",
+    "repository_head_before_resolution": "34887237f9d2610e0f8cc39b61ee854cde9c5a98"
+  },
+  "channel_strategy": {
+    "automated_linkedin_write_allowed": false,
+    "fallback_public_channel": "support@befailproof.ai",
+    "formal_proposal_channel": "EMAIL_AFTER_RECEPTIVITY_OR_ROUTING",
+    "human_linkedin_send_required": true,
+    "preferred_initial_channel": "LINKEDIN",
+    "qualification_contact": "NIVEDIT_JAIN_LINKEDIN"
+  },
+  "claim_boundary": [
+    "FOUNDER_ROLE_DOES_NOT_EQUAL_PURCHASING_AUTHORITY",
+    "STABLE_RELEASE_AUTHORITY_DOES_NOT_EQUAL_BUDGET_AUTHORITY",
+    "LINKEDIN_IDENTITY_DOES_NOT_EQUAL_BUYER_INTENT",
+    "PUBLIC_SUPPORT_EMAIL_DOES_NOT_EQUAL_COMMERCIAL_RECEPTIVITY",
+    "CONTACT_IDENTITY_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION",
+    "COMMERCIAL_ROLE_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "NO_OUTREACH_PERFORMED",
+    "NO_COMMERCIAL_PROPOSAL_SENT",
+    "NO_COMMERCIAL_RELATIONSHIP_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED"
+  ],
+  "contact_surfaces": {
+    "candidate_contact_surface_resolved": true,
+    "commercial_recipient_resolved": false,
+    "github_discussions": true,
+    "github_issues": true,
+    "github_profile": true,
+    "linkedin_company_page": true,
+    "linkedin_profile": true,
+    "product_demo_surface": true,
+    "public_support_email": true
+  },
+  "decision": {
+    "commercial_proposal_authorized": false,
+    "contact_resolution_completed": true,
+    "email_external_write_authorized": false,
+    "linkedin_external_write_authorized": false,
+    "multichannel_resolution_completed": true,
+    "qualification_outreach_authorized": false,
+    "qualification_outreach_may_be_drafted": true,
+    "transition_to_qualified_authorized": false
+  },
+  "email_identity": {
+    "address": "support@befailproof.ai",
+    "commercial_mailbox_confirmed": false,
+    "personal_mailbox_confirmed": false,
+    "publicly_documented": true,
+    "source": "README.md"
+  },
+  "github_identity": {
+    "login": "NiveditJain",
+    "profile_url": "https://github.com/NiveditJain",
+    "project_identity_correlated": true,
+    "repository_contribution_identity_observed": true,
+    "stable_release_authority_signal_observed": true,
+    "stable_release_authority_source": ".github/workflows/publish.yml"
+  },
+  "linkedin_identity": {
+    "account_control_verified": false,
+    "company_page_url": "https://www.linkedin.com/company/failproofai",
+    "founder_self_description_observed": true,
+    "profile_url": "https://www.linkedin.com/in/nivedit-jain",
+    "public_company_association_observed": true,
+    "public_identity_correlated": true,
+    "verification_class": "PUBLIC_WEB_CORROBORATION"
+  },
+  "next_operational_boundary": "Prepare an exact LinkedIn-first qualification outreach draft addressed to Nivedit Jain. The draft must be hashed and explicitly authorized by the human authority before manual external execution.",
+  "person": {
+    "identity_confidence": "HIGH_PUBLIC_CORROBORATION",
+    "identity_resolved": true,
+    "name": "Nivedit Jain"
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "004-failproof-ai-protocol-stress-test",
+  "qualification_effect": {
+    "buyer_intent_validated": false,
+    "candidate_contact_surface_resolved": true,
+    "commercial_recipient_resolved": false,
+    "commercial_state": "QUALIFICATION",
+    "founder_role_observed": true,
+    "qualification_completed": false,
+    "qualified": false,
+    "review_authorized_by_counterparty": false,
+    "specific_contact_person_resolved": true
+  },
+  "recorded_at": "2026-08-31T09:00:49.417666Z",
+  "resolution_id": "FAILPROOF-AI-CONTACT-RESOLUTION-001",
+  "role_resolution": {
+    "budget_authority_observed": false,
+    "buyer_authority_validated": false,
+    "commercial_role_basis": "PUBLIC_FOUNDER_SELF_DESCRIPTION",
+    "commercial_role_observed": true,
+    "founder_role_observed": true,
+    "public_role": "Founder",
+    "purchasing_authority_observed": false,
+    "stable_release_authority_signal_observed": true,
+    "technical_project_involvement_observed": true
+  },
+  "schema": "HBCE_MULTICHANNEL_CONTACT_RESOLUTION",
+  "schema_version": "0.1.0",
+  "source_evidence": {
+    "github": {
+      "identity_commit": "21ae28970e7db8ddcc6d97958a20e73fbc79ad84",
+      "identity_commit_metadata_sha256": "de9713ff9531481fc400352b241cae57bfbbb02cd2b8d1a50117d89a00e8036e",
+      "publish_workflow_path": ".github/workflows/publish.yml",
+      "publish_workflow_sha256": "5ffa1d0f27ba7e3ad37c283d1bcbfe0b560ce9d95203fbbb70ddf6b53e32207b",
+      "readme_path": "README.md",
+      "readme_sha256": "39bd76b382dae684a1663a89279b5723808cf4f8c45bc8d088ab29cf49c62cd1"
+    },
+    "linkedin": {
+      "company_page_url": "https://www.linkedin.com/company/failproofai",
+      "observed_date": "2026-08-31",
+      "profile_url": "https://www.linkedin.com/in/nivedit-jain",
+      "raw_source_retained": false,
+      "verification_class": "PUBLIC_WEB_CORROBORATION"
+    }
+  },
+  "target": {
+    "frozen_commit": "6684685ba7a5dfaf13218dbf89fdcf1e9f67844e",
+    "organization": "FailproofAI",
+    "repository": "FailproofAI/failproofai"
+  }
+}
