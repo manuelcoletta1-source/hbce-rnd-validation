@@ -1,0 +1,106 @@
+{
+  "claim_boundary": [
+    "PRIORITY_A_SELECTION_DOES_NOT_EQUAL_QUALIFICATION",
+    "TARGET_SELECTION_DOES_NOT_EQUAL_BUYER_INTENT",
+    "TECHNICAL_FIT_DOES_NOT_EQUAL_COMMERCIAL_INTEREST",
+    "PUBLIC_EVIDENCE_PACK_DOES_NOT_EQUAL_INDEPENDENT_VALIDATION",
+    "PUBLIC_SALES_EMAIL_DOES_NOT_EQUAL_PROPOSAL_RECEPTIVITY",
+    "EU_AI_ACT_OR_CRA_EVIDENCE_LANGUAGE_DOES_NOT_EQUAL_CERTIFICATION",
+    "TARGET_SELECTION_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "TARGET_SELECTION_DOES_NOT_EQUAL_CUSTOMER_RELATIONSHIP",
+    "TARGET_SELECTION_DOES_NOT_EQUAL_PARTNERSHIP",
+    "NO_OUTREACH_PERFORMED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED"
+  ],
+  "commercial_state": {
+    "buyer_intent_validated": false,
+    "commercial_relationship_validated": false,
+    "paid_engagement_validated": false,
+    "revenue_validated_eur": 0,
+    "state": "PROSPECT"
+  },
+  "commercial_surface": {
+    "buyer_intent_validated": false,
+    "cloud_product_observed": true,
+    "commercial_recipient_resolved": false,
+    "enterprise_product_observed": true,
+    "product_homepage_observed": true,
+    "public_sales_email": "sales@preloop.ai",
+    "public_sales_email_observed": true
+  },
+  "decision": {
+    "external_write_authorized": false,
+    "outreach_authorized": false,
+    "prospect_acquired": true,
+    "qualification_completed": false
+  },
+  "evidence_reconstruction_fit": {
+    "bounded_external_reconstruction_plausible": true,
+    "deterministic_facts_separated_from_agent_judgment": true,
+    "evidence_directory_observed": true,
+    "independent_reconstruction_not_yet_performed_by_hbce": true,
+    "machine_generated_evidence_disclaimer_observed": true,
+    "versioned_result_json_observed": true
+  },
+  "next_operational_boundary": "Qualify prospect 005 against the frozen HBCE qualification gate and define a bounded independent evidence-reconstruction question before resolving contact authority or authorizing outreach.",
+  "pilot_release": {
+    "path": "anchors/PILOT-RELEASE-001.json",
+    "sha256": "72fddd66e5605e6dee4d756a6dbbfb3441b9562d2a7be99a6dff7ea91c764a0d"
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "005-preloop-evidence-reconstruction",
+  "selected_at": "2026-08-31T09:21:41.760443Z",
+  "selected_offer": {
+    "offer_id": "EVIDENCE_RECONSTRUCTION",
+    "target_price_eur": 650
+  },
+  "selection_id": "HBCE-PROSPECT-005-SELECTION-001",
+  "selection_score": {
+    "classification": "PRIORITY_A",
+    "commercial_signal": 10,
+    "evidence_surface": 25,
+    "maintainer_activity": 15,
+    "model_version": "0.1.0",
+    "review_need": 20,
+    "technical_fit": 30,
+    "total": 100
+  },
+  "source_snapshots": {
+    "head_commit_metadata_sha256": "178b5b44be02123233522f826807cd161413728959bbf3b4e92f6f69957b048d",
+    "raw_source_retained": false,
+    "readme_sha256": "3044b12d178745543087c91509a5bb1e894dfd72a48660c7648a58995152e6bf",
+    "repository_metadata_sha256": "b1d403009500cd274a530cd92782b3d81bad2e19d6509fd4b6c0799cc01ceba9",
+    "security_audit_presets_doc_sha256": "07f6850fe00f98e2a15521abb5f469d812f3978e3cc0b870fde00514c00b0031",
+    "tree_metadata_sha256": "4e78deb5240b4617e743d199ca6072190f6c44497b0b70ee3d386271ee7920b6"
+  },
+  "target": {
+    "archived": false,
+    "default_branch": "main",
+    "frozen_head_sha": "81f6dca5dda974b13c52b9110a89d0343e4323d6",
+    "has_discussions": true,
+    "homepage": "https://preloop.ai",
+    "license": "Apache-2.0",
+    "open_issues": 22,
+    "owner": "preloop",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-30T23:08:18Z",
+    "repository": "preloop/preloop",
+    "stars": 56
+  },
+  "technical_surface": {
+    "agent_assessment_separation_observed": true,
+    "architecture_observed": true,
+    "ci_workflow_observed": true,
+    "deterministic_checks_observed": true,
+    "evidence_pack_surface_observed": true,
+    "human_approvals_observed": true,
+    "mcp_firewall_observed": true,
+    "negative_control_surface_observed": true,
+    "policy_as_code_observed": true,
+    "readme_observed": true,
+    "result_json_contract_observed": true,
+    "runtime_observability_observed": true,
+    "security_policy_observed": true
+  }
+}
