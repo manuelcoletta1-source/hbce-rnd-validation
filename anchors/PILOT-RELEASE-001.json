@@ -1,0 +1,102 @@
+{
+  "artifacts": {
+    "anchors/FIRST-EXTERNAL-CONTACT-001.json": {
+      "sha256": "56a4eeff50ecc9c1414631f58d645498b44dfe7b0667472d33b72709be7ff1f7"
+    },
+    "commercial/ENGAGEMENT_MODEL.json": {
+      "sha256": "490729bde63dc4b5f4f6d81ea6857622462e13025cbd25c58120a26dd1136843"
+    },
+    "projects/002-altara-artifact-review/COUNTERPARTY-RESPONSE-OBSERVATION-001.json": {
+      "sha256": "b0fd4b3fe0dc1fcbd6f5f2c9e80b9333d96587109e0241aeba3df0f8e7adb99c"
+    },
+    "scripts/new_review.py": {
+      "sha256": "52d30d155a7b39ab62e49ceb42ed34ef2ee5fb942dff07980729a5376aeb6da8"
+    },
+    "scripts/transition_commercial.py": {
+      "sha256": "bd47d38d2bddc1317bec0a8a2b7baaed68dde48bd7999f1c5a9b8ddbd162162d"
+    },
+    "scripts/verify_commercial.py": {
+      "sha256": "1312b141bebb69ad6c2dfb2d75a13fc0c26404feb15731a49ba1db20eecac878"
+    },
+    "templates/CLOSURE.json": {
+      "sha256": "77647baa5010b184ef72b89e1886575b7f513cd6a60fda052046b44b2de10d7d"
+    },
+    "templates/ENGAGEMENT.md": {
+      "sha256": "74ba5958d9fa765bf674e682472ffcc40836c46daad97a4f14ae46f31612ac8a"
+    },
+    "templates/FINDINGS.md": {
+      "sha256": "a52d28ceeec51e9f213b2795b0caab4e3831dd6915c76dc0d15472f59d13de87"
+    },
+    "templates/INTAKE.md": {
+      "sha256": "0b5a49449e79c6adadcbd9899594e4636e9099eea4ae7019a5314c35b6aa9792"
+    },
+    "templates/PROPOSAL.md": {
+      "sha256": "ce0ebb179d318c341cf7a6b04adfdd00cc3e9c710e241b528f01873779a949b8"
+    },
+    "templates/QUALIFICATION.md": {
+      "sha256": "368891a9fd163af899dc06afe0dfbe9c5738ce3ec26de0b1a6983aa5065569e9"
+    }
+  },
+  "claim_boundary": [
+    "PILOT_READY_DOES_NOT_EQUAL_MARKET_VALIDATED",
+    "PILOT_READY_DOES_NOT_EQUAL_PAID_PRODUCT",
+    "PILOT_READY_DOES_NOT_EQUAL_CUSTOMER_VALIDATION",
+    "PILOT_READY_DOES_NOT_EQUAL_PARTNERSHIP",
+    "PILOT_READY_DOES_NOT_EQUAL_ENDORSEMENT",
+    "NO_EXTERNAL_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED",
+    "HBCE_RND_VALIDATION_IS_NOT_ACCREDITED_CERTIFICATION"
+  ],
+  "created_at": "2026-08-31T07:49:37.080287Z",
+  "engine_version": "0.1.0",
+  "next_operational_boundary": "Acquire and qualify additional independent prospects using the frozen pilot release until the FIRST_EXTERNAL_PAID_ENGAGEMENT metric is satisfied.",
+  "offers": {
+    "ARTIFACT_REVIEW": {
+      "target_price_eur": 350
+    },
+    "EVIDENCE_RECONSTRUCTION": {
+      "target_price_eur": 650
+    },
+    "FULL_VALIDATION_CYCLE": {
+      "target_price_range_eur": [
+        3000,
+        5000
+      ]
+    },
+    "PROTOCOL_STRESS_TEST": {
+      "target_price_eur": 750
+    }
+  },
+  "operational_boundary": "HBCE R&D Validation is frozen as an external commercial pilot capable of initializing, governing, recording and independently verifying bounded R&D validation engagements. Market validation requires independently evidenced commercial acceptance and payment.",
+  "primary_metric": {
+    "achieved": false,
+    "metric": "FIRST_EXTERNAL_PAID_ENGAGEMENT",
+    "validated_revenue_eur": 0
+  },
+  "product": "HBCE R&D Validation",
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "readiness": {
+    "append_only_event_genealogy": true,
+    "commercial_acceptance_validated": false,
+    "commercial_state_machine": true,
+    "counterparty_response_observation": true,
+    "event_hash_chain": true,
+    "external_contact_execution": true,
+    "external_contact_verification": true,
+    "independent_verification": true,
+    "market_validation_completed": false,
+    "paid_engagement_validated": false,
+    "project_initialization": true
+  },
+  "release_class": "EXTERNAL_COMMERCIAL_PILOT",
+  "release_id": "HBCE-RND-VALIDATION-PILOT-001",
+  "repository_head_before_release": "90bf2680201308779a92fb196a1f032b06c8f586",
+  "validated_reference": {
+    "commercial_relationship_validated": false,
+    "commercial_state": "QUALIFICATION",
+    "counterparty_response_observed": false,
+    "external_contact_verified": true,
+    "paid_engagement_validated": false,
+    "project_id": "002-altara-artifact-review"
+  }
+}
