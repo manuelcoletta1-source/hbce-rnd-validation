@@ -1,0 +1,125 @@
+{
+  "authority": {
+    "budget_authority_observed": false,
+    "buyer_authority_validated": false,
+    "commercial_role": "UNRESOLVED",
+    "commercial_role_observed": false,
+    "final_project_decision_authority_observed": true,
+    "purchasing_authority_observed": false,
+    "release_authority_observed": true,
+    "repository_stewardship_observed": true,
+    "technical_direction_authority_observed": true,
+    "technical_role": "Lead Maintainer / Project Lead",
+    "technical_role_observed": true
+  },
+  "baseline": {
+    "qualification_dossier_path": "projects/003-pic-standard-protocol-stress-test/QUALIFICATION-DOSSIER-001.json",
+    "qualification_dossier_sha256": "5718f21366f6f118e59ceb05a0b5beaaa6fac736d454ac25375b1525c848ac01",
+    "repository_head_before_resolution": "655f3408bcd813c9dba0c87c906369d284174e74"
+  },
+  "channel_strategy": {
+    "automated_linkedin_write_allowed": false,
+    "counterparty_preferred_channel_observed": false,
+    "formal_proposal_channel": "EMAIL_AFTER_RECEPTIVITY",
+    "hbce_preferred_initial_channel": "LINKEDIN",
+    "human_linkedin_send_required": true,
+    "qualification_contact_channel": "LINKEDIN_CANDIDATE"
+  },
+  "claim_boundary": [
+    "LINKEDIN_IDENTITY_DOES_NOT_EQUAL_COMMERCIAL_ROLE",
+    "PROJECT_AUTHORITY_DOES_NOT_EQUAL_PURCHASING_AUTHORITY",
+    "PUBLIC_EMAIL_DOES_NOT_EQUAL_COMMERCIAL_RECEPTIVITY",
+    "CONTACT_IDENTITY_DOES_NOT_EQUAL_BUYER_INTENT",
+    "CONTACT_SURFACE_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION",
+    "TECHNICAL_LEADERSHIP_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "NO_OUTREACH_PERFORMED",
+    "NO_COMMERCIAL_PROPOSAL_SENT",
+    "NO_COMMERCIAL_RELATIONSHIP_VALIDATED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED"
+  ],
+  "contact_surfaces": {
+    "candidate_contact_surface_resolved": true,
+    "commercial_recipient_resolved": false,
+    "github_discussions": true,
+    "github_issues": true,
+    "github_profile": true,
+    "linkedin_organization_page": true,
+    "linkedin_profile_candidate": true,
+    "public_email": true
+  },
+  "decision": {
+    "commercial_proposal_authorized": false,
+    "contact_resolution_completed": true,
+    "email_external_write_authorized": false,
+    "linkedin_external_write_authorized": false,
+    "multichannel_resolution_completed": true,
+    "qualification_outreach_authorized": false,
+    "qualification_outreach_may_be_drafted": true,
+    "transition_to_qualified_authorized": false
+  },
+  "email_identity": {
+    "address": "team@madeinpluto.com",
+    "commercial_mailbox_confirmed": false,
+    "personal_mailbox_confirmed": false,
+    "publicly_documented": true,
+    "source": "MAINTAINERS.md"
+  },
+  "github_identity": {
+    "documented_role": "Lead Maintainer / Project Lead",
+    "login": "madeinplutofabio",
+    "technical_project_authority_observed": true,
+    "verified_against_project_documents": true
+  },
+  "linkedin_identity": {
+    "account_control_verified": false,
+    "commercial_role_validated": false,
+    "identity_status": "PUBLIC_WEB_CORROBORATED",
+    "organization_page_url": "https://www.linkedin.com/company/pic-standard",
+    "profile_url": "https://www.linkedin.com/in/fmsalvadori",
+    "public_identity_correlated": true,
+    "purchasing_authority_validated": false
+  },
+  "next_operational_boundary": "Prepare a bounded LinkedIn-first qualification outreach draft for human authorization. No external write is authorized by this resolution.",
+  "observed_at": "2026-08-31T08:35:18.445291Z",
+  "person": {
+    "identity_confidence": "HIGH_PUBLIC_CORROBORATION",
+    "identity_resolved": true,
+    "name": "Fabio Marcello Salvadori"
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "003-pic-standard-protocol-stress-test",
+  "qualification_effect": {
+    "buyer_intent_validated": false,
+    "candidate_contact_surface_resolved": true,
+    "commercial_recipient_resolved": false,
+    "commercial_state": "QUALIFICATION",
+    "qualification_completed": false,
+    "qualified": false,
+    "review_authorized_by_counterparty": false,
+    "specific_contact_person_resolved": true
+  },
+  "resolution_id": "PIC-STANDARD-CONTACT-RESOLUTION-001",
+  "schema": "HBCE_MULTICHANNEL_CONTACT_RESOLUTION",
+  "schema_version": "0.1.0",
+  "source_evidence": {
+    "github": {
+      "governance_path": "GOVERNANCE.md",
+      "governance_sha256": "006240a45348c1ae6247245840fda3a3d1d9462ff7f740ee09607297829aa861",
+      "maintainers_path": "MAINTAINERS.md",
+      "maintainers_sha256": "bc20c65c7ef7b2792a31fe61fcaf9375172afa0c8d2be87e5c8f6e48be6c0e65",
+      "repository_metadata_sha256": "742f23e0c515115f2d5306e5172a46cfaf968a01427c68fdc1630ed1d52a50d6"
+    },
+    "linkedin": {
+      "company_page": "https://www.linkedin.com/company/pic-standard",
+      "profile_candidate": "https://www.linkedin.com/in/fmsalvadori",
+      "raw_source_retained": false,
+      "verification_class": "PUBLIC_WEB_CORROBORATION"
+    }
+  },
+  "target": {
+    "frozen_commit": "77d57ce7bd1f3d0e22eff083c08b6e8854144a1c",
+    "organization": "pic-standard",
+    "repository": "pic-standard/pic-standard"
+  }
+}
