@@ -1,0 +1,17 @@
+{
+  "project_id": "004-failproof-ai-protocol-stress-test",
+  "status": "NOT_EVALUATED",
+  "reviewed_commit": null,
+  "scope_sha256": null,
+  "findings_count": 0,
+  "positive_controls": [],
+  "negative_controls": [],
+  "evidence_pack_sha256": null,
+  "closure_states_allowed": [
+    "PASS_WITHIN_SCOPE",
+    "PASS_WITH_FINDINGS",
+    "REVISION_REQUIRED",
+    "INCOMPLETE_EVIDENCE",
+    "NOT_VERIFIABLE"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "claim_boundary": [
+    "PRIORITY_A_SELECTION_DOES_NOT_EQUAL_QUALIFICATION",
+    "TARGET_SELECTION_DOES_NOT_EQUAL_BUYER_INTENT",
+    "TECHNICAL_FIT_DOES_NOT_EQUAL_COMMERCIAL_INTEREST",
+    "PUBLIC_PRODUCT_DOES_NOT_EQUAL_REVIEW_AUTHORIZATION",
+    "TARGET_SELECTION_DOES_NOT_EQUAL_COMMERCIAL_ACCEPTANCE",
+    "TARGET_SELECTION_DOES_NOT_EQUAL_CUSTOMER_RELATIONSHIP",
+    "TARGET_SELECTION_DOES_NOT_EQUAL_PARTNERSHIP",
+    "NO_OUTREACH_PERFORMED",
+    "NO_PAID_ENGAGEMENT_VALIDATED",
+    "NO_REVENUE_VALIDATED"
+  ],
+  "commercial_state": {
+    "buyer_intent_validated": false,
+    "commercial_relationship_validated": false,
+    "paid_engagement_validated": false,
+    "revenue_validated_eur": 0,
+    "state": "PROSPECT"
+  },
+  "commercial_surface": {
+    "buyer_intent_validated": false,
+    "commercial_recipient_resolved": false,
+    "demo_call_to_action_observed": true,
+    "enterprise_plan_reference_observed": true,
+    "hosted_cloud_product_observed": true,
+    "product_homepage_observed": true
+  },
+  "decision": {
+    "external_write_authorized": false,
+    "outreach_authorized": false,
+    "prospect_acquired": true,
+    "qualification_completed": false
+  },
+  "next_operational_boundary": "Qualify prospect 004 against the frozen HBCE qualification gate before resolving contact authority or authorizing outreach.",
+  "pilot_release": {
+    "path": "anchors/PILOT-RELEASE-001.json",
+    "sha256": "72fddd66e5605e6dee4d756a6dbbfb3441b9562d2a7be99a6dff7ea91c764a0d"
+  },
+  "program_id": "HBCE-PRELAUNCH-5K-RND",
+  "project_id": "004-failproof-ai-protocol-stress-test",
+  "selected_at": "2026-08-31T08:53:07.107856Z",
+  "selected_offer": {
+    "offer_id": "PROTOCOL_STRESS_TEST",
+    "target_price_eur": 750
+  },
+  "selection_id": "HBCE-PROSPECT-004-SELECTION-001",
+  "selection_score": {
+    "classification": "PRIORITY_A",
+    "commercial_signal": 9,
+    "evidence_surface": 25,
+    "maintainer_activity": 15,
+    "model_version": "0.1.0",
+    "review_need": 18,
+    "technical_fit": 30,
+    "total": 97
+  },
+  "source_snapshots": {
+    "head_commit_metadata_sha256": "c6570407dbf528807a8d1c3fc5cc3227f1a7d6ad777811fe48253330366d70e1",
+    "raw_source_retained": false,
+    "readme_sha256": "39bd76b382dae684a1663a89279b5723808cf4f8c45bc8d088ab29cf49c62cd1",
+    "repository_metadata_sha256": "65fbfc5c0347f05792b8e4d52b3f040402f0487124962aa33065cffe3f28ce52",
+    "tree_metadata_sha256": "20d2bce24d1ba5e40f95c4287142990e36f0c28ffb982daaa74727a3451d3929"
+  },
+  "target": {
+    "archived": false,
+    "default_branch": "main",
+    "frozen_head_sha": "6684685ba7a5dfaf13218dbf89fdcf1e9f67844e",
+    "has_discussions": true,
+    "license": "NOASSERTION",
+    "open_issues": 35,
+    "owner": "FailproofAI",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-30T18:53:13Z",
+    "repository": "FailproofAI/failproofai",
+    "stars": 1588
+  },
+  "technical_surface": {
+    "audit_surface_observed": true,
+    "ci_workflow_observed": true,
+    "hosted_observability_surface_observed": true,
+    "policy_enforcement_surface_observed": true,
+    "readme_observed": true,
+    "runtime_blocking_surface_observed": true,
+    "smoke_test_surface_observed": true,
+    "trace_surface_observed": true
+  }
+}
