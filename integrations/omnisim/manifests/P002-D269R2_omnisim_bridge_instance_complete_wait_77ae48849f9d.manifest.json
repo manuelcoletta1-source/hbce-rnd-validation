@@ -1,0 +1,90 @@
+{
+  "artifact": {
+    "added_lines": 7,
+    "deleted_lines": 0,
+    "id": "P002-D269R2-OMNISIM-BRIDGE-INSTANCE-PATCH",
+    "kind": "EXTERNAL_UPSTREAM_PATCH",
+    "patch_path": "integrations/omnisim/patches/P002-D269R2_omnisim_bridge_instance_complete_wait_77ae48849f9d.patch",
+    "patch_sha256": "b01cc74749eca407d55eef902c7b5f8d0bf429d6fed605b59dafd5249efbebe7",
+    "protocol": "HBCE-OMNISIM-BRIDGE-INSTANCE-PATCH-v1.1",
+    "source_gate": "P002-D269R2",
+    "status": "VALIDATED_LOCAL_PROPOSAL"
+  },
+  "claim_boundary": [
+    "NO_UNAUTHORIZED_CLIENT_OR_PARTNERSHIP_CLAIMS",
+    "NO_ENDORSEMENT_CLAIM",
+    "NO_CERTIFICATION_CLAIM",
+    "NO_UPSTREAM_ACCEPTANCE_CLAIM",
+    "NO_UPSTREAM_PUBLICATION_CLAIM",
+    "NO_RUNTIME_VALIDATION_CLAIM"
+  ],
+  "genealogy": [
+    {
+      "gate": "P002-D269",
+      "patch_sha256": "950ad330e9e4179c1e50f3bffe2b2089b00d14d60a03864bea47fab2cb65f537",
+      "state": "PASS_LOCAL_PATCH_ARTIFACT_BUILT_SUPERSEDED"
+    },
+    {
+      "gate": "P002-D270",
+      "state": "ABORTED_REVIEW_FALSE_NEGATIVE_AND_WAIT_PATH_GAP_DISCOVERED"
+    },
+    {
+      "gate": "P002-D269R1",
+      "state": "ABORTED_PATCH_BUILDER_SYNTAX_ERROR"
+    },
+    {
+      "gate": "P002-D269R2",
+      "patch_sha256": "b01cc74749eca407d55eef902c7b5f8d0bf429d6fed605b59dafd5249efbebe7",
+      "state": "PASS_CORRECTED_PATCH_ARTIFACT_BUILT_CURRENT"
+    },
+    {
+      "gate": "P002-D270R1",
+      "state": "INTERRUPTED_DURING_EXTERNAL_FETCH"
+    },
+    {
+      "gate": "P002-D270R2",
+      "state": "BLOCKED_EXTERNAL_FETCH_TIMEOUT"
+    },
+    {
+      "gate": "P002-D270R3",
+      "state": "ABORTED_OFFLINE_REVIEW_CONTEXT_ASSUMPTION"
+    },
+    {
+      "gate": "P002-D270R4",
+      "state": "PASS_OFFLINE_PATCH_ARTIFACT_REVIEW_RND_INTAKE_READY"
+    }
+  ],
+  "manifest_protocol": "HBCE-RND-EXTERNAL-PATCH-MANIFEST-v1",
+  "program": {
+    "id": "HBCE-PRELAUNCH-5K-RND",
+    "reference_case": {
+      "id": "OMNILINK-0.4",
+      "state": "COMPLETED_UNPAID_TECHNICAL_PILOT"
+    }
+  },
+  "repository_intake": {
+    "base_head": "3995c322c30abea1e1fe94b37b21a7cc6cbe7b0d",
+    "base_tree": "b8b38e6d71d61abdbae9c2fd2d5771f4243a68f2",
+    "intake_gate": "P002-D271",
+    "repository": "manuelcoletta1-source/hbce-rnd-validation"
+  },
+  "upstream": {
+    "base_commit": "77ae48849f9d1a2ed4865696b6e53ff26a930cfc",
+    "base_git_blob_sha": "9a0e5205a77ae684b559ab13c26dd2a867659956",
+    "base_target_sha256": "3e3025bc200826a9e4c000fe3a233d122661f89d369a1aa9745526ba4901a14e",
+    "patched_git_blob_sha": "a91221fe8308e73f0c534f314c55a6aa8fc3d644",
+    "patched_target_sha256": "514cd4d1f0cf5d9dfc61a7ba5b335ec5e4f4a30a57f7804ad157fb34268f7e56",
+    "repository": "omnilink-tech/omnisim",
+    "target_path": "projects/samples/demos/controllers/omnilink_mobile_bridge/omnilink_mobile_bridge.py"
+  },
+  "validation": {
+    "all_wait_result_paths_carry_bridge_instance_id": true,
+    "offline_patch_artifact_review": "PASS",
+    "review_gate": "P002-D270R4",
+    "runtime_verified": false,
+    "source_semantic_validation": "PASS",
+    "upstream_accepted": false,
+    "upstream_published": false,
+    "upstream_refetch_validation": "DEFERRED_NETWORK_TIMEOUT"
+  }
+}
